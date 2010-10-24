@@ -1,20 +1,38 @@
 ﻿<Window x:Class="Nemira.AddSubscription"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Add Subscription"
-        Height="300"
-        Width="300"
-        ResizeMode="NoResize"
-        ShowInTaskbar="False"
-        WindowStartupLocation="CenterScreen" 
-        FocusManager.FocusedElement="{Binding ElementName=CancelButton}"
+        Title="Add Feed Subscription"
+        SizeToContent="WidthAndHeight"
+        WindowStartupLocation="CenterOwner"
+        TextOptions.TextFormattingMode="Display"
+        FocusManager.FocusedElement="{Binding ElementName=feedUrl}"
         Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
-    <Grid>
-        
-        <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="4">
-            <TextBox Name="FeedUrl"/>
-            <Button Name="OkButton" Click="OnOkClick" IsDefault="True">OK</Button>
-            <Button Name="CancelButton" IsCancel="True">Cancel</Button>
+    <Grid Margin="5">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="28"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="70"/>
+            <ColumnDefinition Width="300"/>
+        </Grid.ColumnDefinitions>
+
+        <Label Grid.Row="0"
+               Grid.Column="0"
+               HorizontalContentAlignment="Right"
+               Content="Feed URL:"/>
+        <TextBox Grid.Row="0"
+                 Grid.Column="1"
+                 Name="feedUrl"/>
+
+        <StackPanel Grid.Row="1"
+                    Grid.ColumnSpan="2"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Margin="0,5,0,0">
+            <Button Click="OnSubmit" Content="Add" Padding="10,2,10,2"/>
+            <Button IsCancel="True" Content="Cancel" Margin="5,0,0,0" Padding="10,2,10,2"/>
         </StackPanel>
 
     </Grid>
