@@ -51,6 +51,12 @@
     <Compile Include="AllTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nemira\Nemira.csproj">
+      <Project>{F3554A40-77ED-42D9-B8A7-D873974A2BD6}</Project>
+      <Name>Nemira</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
