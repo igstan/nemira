@@ -25,5 +25,18 @@ namespace Nemira
         {
             feedUrl.Text = Clipboard.GetText();
         }
+
+        private void OnSubmit(object sender, RoutedEventArgs e)
+        {
+            this.DialogResult = true;
+        }
+
+        public string FeedUrl
+        {
+            get
+            {
+                return feedUrl.Text;
+            }
+        }
     }
 }
