@@ -57,18 +57,8 @@ namespace Nemira
         {
             this.readerAccount = new ReaderAccount(email, pass);
 
-            PopulateSubscriptionsTree();
+            LoadSubscriptions();
             Show();
-        }
-
-        private void PopulateSubscriptionsTree()
-        {
-            subscriptions.ItemsSource = new Subscriptions(readerAccount);
-        }
-
-        private void OnAddFeed(object sender, RoutedEventArgs e)
-        {
-            // feedCategories.ElementAt(0).Feeds.Add(new Feed(feedUrl.Text, "http://someaddress.com/"));
         }
 
         private void OnSelectedFeed(object sender, RoutedEventArgs e)
@@ -77,8 +67,7 @@ namespace Nemira
             {
                 var subscription = subscriptions.SelectedItem as Subscription;
 
-                editSubscription.IsEnabled = true;
-                deleteSubscription.IsEnabled = true;
+                EnableSubscriptionToolbarButtons();
 
                 feedTitle.Text = subscription.Title;
                 feedItemTooltip.Content = subscription.SourceUrl;
@@ -89,8 +78,7 @@ namespace Nemira
             {
                 var item = subscriptions.SelectedItem as SubscriptionItem;
 
-                editSubscription.IsEnabled = false;
-                deleteSubscription.IsEnabled = false;
+                DisableSubscriptionToolbarButtons();
 
                 feedTitle.Text = item.Title;
                 feedItemTooltip.Content = "Open in default Web browser";
@@ -101,6 +89,17 @@ namespace Nemira
         }
 
         private void OnUnselectedFeed(object sender, RoutedEventArgs e)
+        {
+            DisableSubscriptionToolbarButtons();
+        }
+
+        private void EnableSubscriptionToolbarButtons()
+        {
+            editSubscription.IsEnabled = true;
+            deleteSubscription.IsEnabled = true;
+        }
+
+        private void DisableSubscriptionToolbarButtons()
         {
             editSubscription.IsEnabled = false;
             deleteSubscription.IsEnabled = false;
@@ -140,7 +139,7 @@ namespace Nemira
             if (addSubscriptionDialog.ShowDialog() == true)
             {
                 readerAccount.AddSubscription(addSubscriptionDialog.FeedUrl);
-                subscriptions.ItemsSource = new Subscriptions(readerAccount);
+                LoadSubscriptions();
             }
         }
 
@@ -154,8 +153,13 @@ namespace Nemira
 
             if (MessageBox.Show(message, title, button, icon) == MessageBoxResult.OK) {
                 readerAccount.RemoveSubscription(subscription);
-                subscriptions.ItemsSource = new Subscriptions(readerAccount);
+                LoadSubscriptions();
             }
+        }
+
+        private void LoadSubscriptions()
+        {
+            subscriptions.ItemsSource = new Subscriptions(readerAccount);
         }
     }
 
