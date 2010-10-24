@@ -1,0 +1,14 @@
+TODO
+====
+
+- require username and password on first run DONE
+- add new subscription
+- delete subscription
+- change subscription name
+- cache subscriptions locally
+- handle network errors
+- handle JSON decoding errors
+- lazy load subscriptions (on expand event)
+- delay loading when quickly navigating with the arrow keys
+- refresh subscriptions
+- add architectural docs

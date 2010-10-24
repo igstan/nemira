@@ -1,0 +1,593 @@
+{
+    "direction": "ltr",
+    "id": "user/13806261218130155658/state/com.google/reading-list",
+    "title": "igstan's reading list in Google Reader",
+    "continuation": "COapwI3FyaQC",
+    "self": [{
+        "href": "http://www.google.com/reader/api/0/stream/contents/user/-/state/com.google/reading-list"
+    }],
+    "author": "igstan",
+    "updated": 1286838346,
+    "items": [{
+        "crawlTimeMsec": "1286838346534",
+        "id": "tag:google.com,2005:reader/item/284789ec759810ad",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "Speed Up Your Rumble Deployment with Linode StackScripts",
+        "published": 1286769600,
+        "updated": 1286769600,
+        "alternate": [{
+            "href": "http://blog.railsrumble.com/blog/2010/10/11/speed-up-with-stackscripts",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003e\u003cem\u003eNote: This is a guest post by one of our event sponsors,\n      \u003ca href\u003d\"http://linode.com\"\u003eLinode\u003c/a\u003e\u003c/em\u003e\u003c/p\u003e\n      \n      \u003cp\u003e\u003cimg src\u003d\"http://blog.railsrumble.com/images/pancake-stack.png\" style\u003d\"float:right;margin:0 0 10px 0\"\u003e\u003c/p\u003e\n      \n      \u003cp\u003eLinode is proud to be sponsoring the Rails Rumble for the fourth consecutive\n      year.  We’d like to highlight a new Linode feature available to teams this\n      year that we call \u003ca href\u003d\"http://linode.com/stackscripts/\"\u003eStackScripts\u003c/a\u003e, which can speed up your deployment process significantly. We’re sure that teams who utilize a StackScript for their Linode will have a distinct competitive advantage.\u003c/p\u003e\n      \n      \u003cp\u003eStackScripts provide a way to create automated custom deployments. Here’s the breakdown:\u003c/p\u003e\n      \n      \u003cul\u003e\n      \u003cli\u003eStackScripts seed a base Linode distribution with an additional script to run at first boot. You don’t need to maintain a cumbersome custom image or template when you can deploy instances that automatically create themselves according to your instructions; once your Linode is booted for the first time, the StackScript does the rest.\u003c/li\u003e\n      \u003cli\u003eA StackScript can install Ruby and bootstrap a stack, potentially installing any needed Gems or even handing off control to Capistrano. Anything is possible.\u003c/li\u003e\n      \u003cli\u003eThere is a \u003ca href\u003d\"http://linode.com/stackscripts/\"\u003elibrary\u003c/a\u003e of pre-built StackScripts that are created by the Linode user community. You can take advantage of these scripts as a starting point for new deployments.\u003c/li\u003e\n      \u003cli\u003eStackScripts can be deployed on top of any of the 14 distributions Linode offers in either 32-bit or 64-bit flavors.\u003c/li\u003e\n      \u003c/ul\u003e\n      \n      \n      \u003cp\u003eAs a developer, if you’ve made it this far in the blog post, we’re sure there are dozens of ideas popping up in your head. Get to work, and save those precious few minutes when the Rumble begins. Good luck!\u003c/p\u003e\n      \n      \u003cp\u003e\u003cem\u003eUPDATE: Members of the \u003ca href\u003d\"http://twitter.com/madrailers\"\u003eMadison Ruby\n      User Group\u003c/a\u003e have put together a\n      \u003ca href\u003d\"http://github.com/madrailers/rumble_stack_script\"\u003eswanky base\n      StackScript especially for Rails Rumble projects\u003c/a\u003e. Check it out on GitHub\n      and fork away!\u003c/em\u003e\u003c/p\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://blog.railsrumble.com/feed/atom.xml",
+            "title": "Rails Rumble",
+            "htmlUrl": "http://blog.railsrumble.com"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286835438795",
+        "id": "tag:google.com,2005:reader/item/19d662eab87a41e5",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.blogger/BlogList1-igstan.blogspot.com", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "wurbe #35 The Next Generation",
+        "published": 1286831360,
+        "updated": 1286831360,
+        "alternate": [{
+            "href": "http://wurbe.ro/2010/10/12/wurbe-35-next-generation",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eCum noua versiune de HTML 5 bate la usa (mai avem doar vreo 4000 si un pic de zile pana cand ajunge in stadiul de propunere \u003cem\u003erecomandata\u003c/em\u003e), ne-am hotarat sa dedicam editia omagiala #35 generatiilor viitoare de HTML si CSS.\u003c/p\u003e\n\u003cp\u003ePe langa discutiile care s-ar putea ivi la o bere, vom avea ocazia sa vorbim in \u003cstrong\u003eS.A.L.T, joi, 21 octombrie, incepand cu ora 18,\u003c/strong\u003e despre tot ce tine de HTML5 si CSS3, suportul la nivel de browsere. Evident, prezenta se face in comentarii.\u003c/p\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.feedburner.com/wurbedotro",
+            "title": "wurbe",
+            "htmlUrl": "http://wurbe.ro/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286834642967",
+        "id": "tag:google.com,2005:reader/item/f9649ac433c8d29f",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "alexrussell", "ie8", "internetexplorer"],
+        "title": "A quote from Alex Russell",
+        "published": 1286838112,
+        "updated": 1286838112,
+        "alternate": [{
+            "href": "http://simonwillison.net/2010/Oct/11/ie8/",
+            "type": "text/html"
+        }],
+        "summary": {
+            "direction": "ltr",
+            "content": "\u003cdiv\u003e\u003cblockquote\u003e\u003cp\u003eWhy, for a decade of experience, can we not seem to see the IE 8 zombie coming? It’s not like it’s going to be some big surprise that unless we do something different, we’ll still be supporting it in 2015. That’s right: in 2015, you’ll still be thinking about a browser that doesn’t support canvas or video and doesn’t even have a JITing JS engine.\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e - \u003ca href\u003d\"http://infrequently.org/2010/10/ie-8-is-the-new-ie-6/\"\u003eAlex Russell\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.simonwillison.net/swn-everything",
+            "title": "Simon Willison\u0026#39;s Weblog",
+            "htmlUrl": "http://simonwillison.net/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286834532718",
+        "id": "tag:google.com,2005:reader/item/3833d87445984cb4",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Shopping", "Zappos"],
+        "title": "Zappos Developer Portal Puts Spotlight on its API",
+        "published": 1286822970,
+        "updated": 1286822970,
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/ProgrammableWeb/~3/aVcnJ_G1ZFA/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003e\u003ca href\u003d\"http://www.programmableweb.com/api/zappos\"\u003e\u003cimg src\u003d\"http://www.programmableweb.com/images/apis/at2379.png\" alt\u003d\"Zappos\"\u003e\u003c/a\u003eWhy, you may ask, would \u003ca href\u003d\"http://www.zappos.com\"\u003eZappos\u003c/a\u003e–which you probably know as that online shoe store with the great return policy–need an API, much less a developer platform?  Well, Zappos doesn’t just sell shoes these days; they also carry men’s and women’s clothing, handbags, housewares, and other related products.  And if there’s one thing online shoppers love, it’s new ways to shop.\u003c/p\u003e\n\u003cp\u003eZappos is serious about building a robust and user-friendly platform.  In addition to its \u003ca href\u003d\"http://developer.zappos.com/\"\u003eDeveloper Portal\u003c/a\u003e, they’ve set up a \u003ca href\u003d\"http://twitter.com/zappos_api\"\u003eTwitter account\u003c/a\u003e and a \u003ca href\u003d\"http://groups.google.com/group/zappos_api\"\u003ePublic API mailing list\u003c/a\u003e.  The Zappos API team recently used that mailing list to \u003ca href\u003d\"http://groups.google.com/group/zappos_api/browse_thread/thread/d5209a4637aabc52\"\u003eannounce some updates\u003c/a\u003e to their API, including bug fixes, updated documentation, and their intention “to start being a bit more vocal on our Twitter account.”\u003c/p\u003e\n\u003cp\u003e\u003cimg title\u003d\"zappos_api\" src\u003d\"http://blog.programmableweb.com/wp-content/zappos_api.png\" alt\u003d\"\" width\u003d\"480\" height\u003d\"80\"\u003e\u003c/p\u003e\n\u003cp\u003eIt’s easy to get started with the Zappos API.  Existing Zappos customers can get an API key right away, after logging in and accepting the licensing agreement.  The current REST API gives access to product information, including keyword search, full product details and images, and reviews.  Developers can also get logos and links for the various product brands, and statistics showing what was just bought on Zappos.com.  There’s also auto-complete for search suggestions.  The default API limit is 2,500 calls per day, but you can request more if your app really needs it.\u003c/p\u003e\n\u003cp\u003eCustomer data is not currently available through the API, but some may be offered after OAuth is implemented.\u003c/p\u003e\n\u003cp style\u003d\"text-align:center;margin-top:10px\"\u003e\u003ca href\u003d\"http://www.programmableweb.com/mashup/shoesnbags\"\u003e\u003cimg src\u003d\"http://www.programmableweb.com/images/links/md16742.jpg\" alt\u003d\"ShoesNBags\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eThe API team is also publishing developer profiles on their blog.  The first interview features the creator of the \u003ca href\u003d\"http://www.programmableweb.com/mashup/shoesnbags\"\u003eShoesNBags\u003c/a\u003e iPhone app, which lets shoppers browse and buy from Zappos on mobile devices, something Zappos \u003ca href\u003d\"http://blog.programmableweb.com/2010/07/14/zappos-comes-to-its-senses-allows-mobile-apps/\"\u003eonly recently made possible\u003c/a\u003e. Other API clients include the \u003ca href\u003d\"http://developer.zappos.com/blog/official-zapposcom-ipad-app\"\u003eofficial Zappos iPad app\u003c/a\u003e and the \u003ca href\u003d\"http://developer.zappos.com/blog/blog-post-seesmic-and-zappos-plug-things-up\"\u003eZappos plugin for Seesmic\u003c/a\u003e desktop.  The API team are also preparing a profile on how Zappos uses their own API on \u003ca href\u003d\"http://www.zappos.com/\"\u003ezappos.com\u003c/a\u003e itself.\u003c/p\u003e\n\u003cp\u003eWith the slogan \u003cem\u003e“We put the API in escAPIsm and take the API out of vAPId,”\u003c/em\u003e the Zappos API team promises great things.  And Zappos has shown that it can deliver.\u003c/p\u003e\n\u003cdiv\u003e\u003ch5\u003eRelated ProgrammableWeb Resources\u003c/h5\u003e\u003cp\u003e\u003cimg src\u003d\"http://www.google.com/s2/favicons?domain\u003ddeveloper.zappos.com\" alt\u003d\"Zappos\"\u003e \u003ca href\u003d\"http://www.programmableweb.com/api/zappos\"\u003eZappos API Profile\u003c/a\u003e, \u003ca href\u003d\"http://www.programmableweb.com/api/zappos/mashups\"\u003e1 mashup\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\u003cdiv\u003e\n\u003ca href\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?a\u003daVcnJ_G1ZFA:Iw2-5Dm1EsI:yIl2AUoC8zA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?d\u003dyIl2AUoC8zA\" border\u003d\"0\"\u003e\u003c/a\u003e \u003ca href\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?a\u003daVcnJ_G1ZFA:Iw2-5Dm1EsI:7Q72WNTAKBA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?d\u003d7Q72WNTAKBA\" border\u003d\"0\"\u003e\u003c/a\u003e\n\u003c/div\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~r/ProgrammableWeb/~4/aVcnJ_G1ZFA\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "author": "Curtis C. Chen",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds2.feedburner.com/programmableweb",
+            "title": "ProgrammableWeb",
+            "htmlUrl": "http://blog.programmableweb.com"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286833316986",
+        "id": "tag:google.com,2005:reader/item/93780a30fe70a2e1",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "WEBLOG"],
+        "title": "So You Want To Be A Designer: Top 5 List",
+        "published": 1286833261,
+        "updated": 1286833261,
+        "alternate": [{
+            "href": "http://www.azarask.in/blog/post/be-a-designer/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cdiv\u003e\u003cimg src\u003d\"http://img.skitch.com/20101011-br9whk7y8txxk5ehbiu7mjx4kr.png\"\u003e\u003c/div\u003e\n\u003cp\u003eGetting started in user experience can be difficult. Our profession has an identity crisis. You need look no further than swarm of acronyms that we hide behind: CHI, HCI, UI, UE, UX, IA, ID, IxD, IxSD,… the list goes on.\u003c/p\u003e\n\u003cp\u003eOur identity crisis means learning our field is like trying to inhabit the mind of a multiple personality disorder sufferer. For an aspiring interaction designer, figuring it all out is daunting. For anyone, it’s daunting.\u003c/p\u003e\n\u003cp\u003eThis is my top-five list of what I’ve found to be most important to do and master if you want to get into design.\u003c/p\u003e\n\u003ch2\u003e1. The Hardest Part Of Software Is Culture. Get A Book On Negotiation.\u003c/h2\u003e\n\u003cp\u003eThe hardest part about creating software isn’t software. It’s people. Creating a killer interface is meaningless unless you can convince the rest of your team, client, or company that it is worth the investment. Your job as a user experience person is to cultivate a culture where good design has a leading voice at the table. If you cannot communicate, you will fail. If you can not convince, you will fail. If you cannot listen, you will fail.\u003cspan\u003e\u003c/span\u003e\u003c/p\u003e\n\u003cp\u003eMuch of what I look for in a designer is the ability to balance, persuade, and negotiate without compromising on design. To design is to inspire participation. Unless we can let our ideas become other people’s ideas—get others to want to champion design as their own—we will not be successful.\u003c/p\u003e\n\u003cdiv\u003e\u003ccenter\u003e\u003ca href\u003d\"http://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0140157352\"\u003e\u003cimg src\u003d\"http://img.skitch.com/20101011-kkf25rab84n9xha4r3949h9146.png\"\u003e\u003c/a\u003e\u003c/center\u003e\n\u003cp\u003e\u003ci\u003e\u003ca href\u003d\"http://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0140157352\"\u003eGetting To Yes\u003c/a\u003e\u003c/i\u003e is an invaluable guide in design: learning the art of listening and negotiation.\u003c/p\u003e\n\u003c/div\u003e\n\u003cp\u003eLearn to make mockups, prototypes, and videos. Learn how to create at the right level of fidelity to convince others: sometimes a sketch will do, sometimes pixel-perfect mockups are what you’ll need, and sometimes only an interactive demo will suffice. Learn to talk in use-cases to product managers and business-speak to business development people. Get a \u003ca href\u003d\"http://www.amazon.com/Getting-Yes-Negotiating-Agreement-Without/dp/0140157352\"\u003ebook on negotiation\u003c/a\u003e. It will be your best friend.\u003c/p\u003e\n\u003cp\u003eThe hardest part of your job isn’t being creative or brilliant; it’s communicating and culture.\u003c/p\u003e\n\u003ch2\u003e2. Know Cognitive Psychology.\u003c/h2\u003e\n\u003cp\u003eYou are designing for people; you need to be well versed in the abilities and frailties of the human mind. There are \u003ca href\u003d\"http://en.wikipedia.org/wiki/Cognitive_psychology\"\u003efundamental truths\u003c/a\u003e about of what we are capable that runs deeper than culture and language. How much can you store in short-term memory? What are the properties of your locus of attention? A priori, how long does it take to choose an item in an ordered list? How does habituation affect design?\u003c/p\u003e\n\u003cp\u003eIf you can’t answer these questions, you need to get yourself a copy of \u003ca href\u003d\"http://en.wikipedia.org/wiki/The_Humane_Interface\"\u003eThe Humane Interface\u003c/a\u003e, \u003ca href\u003d\"http://www.amazon.com/How-We-Decide-Jonah-Lehrer/dp/0618620117\"\u003eHow We Decide\u003c/a\u003e, and \u003ca href\u003d\"http://www.amazon.com/Resonant-Interface-Foundations-Interaction-Design/dp/0321375963\"\u003eThe Resonant Interface\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eWhen I’m hiring, I don’t look for credentials, I look for knowledge. If you don’t at least know what \u003ca href\u003d\"http://en.wikipedia.org/wiki/GOMS\"\u003eGOMs analysis\u003c/a\u003e is and the cognitive science behind why \u003ca href\u003d\"http://www.alistapart.com/articles/neveruseawarning/\"\u003eundo is better than a warning\u003c/a\u003e, I know that even if your designs are good, you don’t understand \u003ci\u003ewhy\u003c/i\u003e. That’s dangerous. Your gut can often lead you in the right direction, but it can also make stupid and avoidable mistakes. Potentially worse, you won’t be able to communicate and convince others of your ideas because you can only argue with feelings.\u003c/p\u003e\n\u003cp\u003eInterface design is as much a science as it is an art. Know the science, else you are walking blindly through a minefield of harmful design.\u003c/p\u003e\n\u003ch2\u003e3. Learn to Program, Even If Poorly.\u003c/h2\u003e\n\u003cdiv\u003e\u003cimg src\u003d\"http://img.skitch.com/20101011-q5rix2h8rmkh2gd1qhdydyqh8d.png\"\u003e\u003c/div\u003e\n\u003cp\u003e2,500 years ago, a Greek writer told us something about creating software: Thucydides wrote, “The society that separates its scholars from its warriors will have its thinking done by cowards and its fighting by fools.” The optimal society is one that mixes scholar-warriors and warrior-scholars. The same is true for companies that schism their designers and engineers. The most important trait a team can have is empathy. Without it, the implementers will not care, and the designers will not be realistic. When companies complain of specs and code being “tossed over the fence”, a lack of empathy is to blame.\u003c/p\u003e\n\u003cp\u003eThe most powerful tool for creating empathy as a designer is prototyping. It meets the rest of the team half-way, is the second most persuasive artifact (the first being a narrated video of the prototype), and gives you a sense of what’s hard and what’s easy to implement. Having thought through the edge-cases and being able to speak an engineer’s language gives you street cred. You don’t need to be a great coder, but you should at least be able to get your idea across in in HTML and Javascript.\u003c/p\u003e\n\u003cp\u003eTo design is to inspire participation. To do that, you need to be respected. For that, you need to be a designer-coder.\u003c/p\u003e\n\u003ch2\u003e4. Create, Create, Create.\u003c/h2\u003e\n\u003cp\u003eGreat designers do design all of the time. They get mad in an elevator when the buttons are in a confusion order, or when the buttons on a ATM are incorrectly labeled. Then they take a picture and blog about it. If you don’t love creating and designing, you shouldn’t be in the field. You’ll need thousands of hours of practice to rise to the top of your game. In the end, you are designing for people so you need to intimately know people, and people are messy.\u003c/p\u003e\n\u003cp\u003eIf you don’t have dozens of little projects you’ve created, learned from, and even discarded, you are doing it wrong.\u003c/p\u003e\n\u003ch2\u003e5. Study Graphic Design.\u003c/h2\u003e\n\u003cp\u003eI used to be a hard-nosed interaction designer, and eschewed visual design in favor of experience design. While it is true that getting interaction right requires a deeper understanding of human psychology, a read through \u003ci\u003e\u003ca href\u003d\"http://www.amazon.com/Emotional-Design-Love-Everyday-Things/dp/0465051359\"\u003eEmotional Design\u003c/a\u003e\u003c/i\u003e shows that looks matter. Looks affect usability. Looks are just one aspect of designing for emotional beings—you need to think about the whole sensory experience of an object, from sound to touch—but looks are often the most immediatly apparent.\u003c/p\u003e\n\u003cp\u003eStudy \u003ca href\u003d\"http://webtypography.net/toc/\"\u003etypography\u003c/a\u003e, study the \u003ca href\u003d\"http://www.smashingmagazine.com/2009/07/17/lessons-from-swiss-style-graphic-design/\"\u003eSwiss grid system\u003c/a\u003e, learn how to make your designs pop even if it means being \u003ca href\u003d\"http://www.youtube.com/watch?v\u003dCW0DUg63lqU\"\u003eheavily inspired\u003c/a\u003e by others’ style in the beginning.\u003c/p\u003e\n\u003cp\u003eYou are in the business of selling ideas. Unfortunately, an ugly mockup of a brilliant idea is often overlooked for a beautiful mockup of a derivative idea. To compete, you need to learn how to be an adequate graphic designer.\u003c/p\u003e\n\n\n\u003cp\u003eNo related posts.\u003c/p\u003e"
+        },
+        "author": "Aza Raskin",
+        "likingUsers": [{
+            "userId": "01037121463138501388"
+        },
+        {
+            "userId": "13001569998503205399"
+        },
+        {
+            "userId": "07158421466891035376"
+        },
+        {
+            "userId": "06452493489217062186"
+        },
+        {
+            "userId": "05221790502551658316"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://www.azarask.in/blog/feed/",
+            "title": "Aza on Design",
+            "htmlUrl": "http://www.azarask.in/blog"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286830411562",
+        "id": "tag:google.com,2005:reader/item/e3ba43f0f2a04304",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "Passing the ZCE PHP 5.3 certification exam!",
+        "published": 1286829076,
+        "updated": 1286829076,
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/ZendDeveloperZone/~3/m6Cswqqhp7U/12647-Passing-the-ZCE-PHP-5.3-certification-exam",
+            "type": "text/html"
+        }],
+        "summary": {
+            "direction": "ltr",
+            "content": "Get  ZCE  certified  NOW !  \nIn this article I am detailing each topic covered by the   ZCE   PHP  5.3  certification exam, explaining what areas are more important than others, what you need to know and what you need to understand. Then I will explain  PHP  5.3 newest features and which of them are the most important for taking the  ZCE  certification exam. Read the full article to  learn about the required topics for the 200-530 exam  …\u003cdiv\u003e\n\u003ca href\u003d\"http://feeds.feedburner.com/~ff/ZendDeveloperZone?a\u003dm6Cswqqhp7U:Rz7nOX2EOyk:yIl2AUoC8zA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ZendDeveloperZone?d\u003dyIl2AUoC8zA\" border\u003d\"0\"\u003e\u003c/a\u003e \u003ca href\u003d\"http://feeds.feedburner.com/~ff/ZendDeveloperZone?a\u003dm6Cswqqhp7U:Rz7nOX2EOyk:7Q72WNTAKBA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ZendDeveloperZone?d\u003d7Q72WNTAKBA\" border\u003d\"0\"\u003e\u003c/a\u003e\n\u003c/div\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~r/ZendDeveloperZone/~4/m6Cswqqhp7U\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds2.feedburner.com/ZendDeveloperZone",
+            "title": "Zend Developer Zone (DevZone) - Advancing the art of PHP",
+            "htmlUrl": "http://devzone.zend.com/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286825971261",
+        "id": "tag:google.com,2005:reader/item/893d0851cfdf5ba0",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.blogger/BlogList1-igstan.blogspot.com", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "wurbe #34",
+        "published": 1286820637,
+        "updated": 1286820637,
+        "alternate": [{
+            "href": "http://wurbe.ro/2010/10/11/wurbe-34",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eLa wurbe #34 s-au intamplat lucrurile obisnuite: bere si disecare de interneti.\u003c/p\u003e\n\u003cp\u003eAm atins cam toate aspectele legate de mutatul pachetelor de colo-colo, de la iOS, iPad si lansarea iPhone 4 in Romania, pana la finantarea unui start-up, noSQL, scalabilitate si tot restul tacamului.\u003c/p\u003e\n\u003cp\u003eIn zilele ce urmeaza vom anunta CFP-ul pentru wurbe #36, si data pentru wurbe #35. Serios.\u003c/p\u003e\n\u003cp\u003ePentru poze si lucruri asemanatoare cu pozele, dar nu neaparat de la editia superba cu numarul 34, puteti sa va incantati globul ocular la urmatoarea adresa:\u003c/p\u003e\n\u003cul\u003e\n\t\u003cli\u003e\u003ca href\u003d\"http://www.flickr.com/photos/tags/wurbe\"\u003eFlickr, tagged with wurbe\u003c/a\u003e\u003c/li\u003e\n\u003c/ul\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.feedburner.com/wurbedotro",
+            "title": "wurbe",
+            "htmlUrl": "http://wurbe.ro/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286819348825",
+        "id": "tag:google.com,2005:reader/item/f3344e06dc3f4925",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "Radio Labs - Closed for business",
+        "published": 1286814194,
+        "updated": 1286817646,
+        "alternate": [{
+            "href": "http://www.bbc.co.uk/blogs/radiolabs/2010/10/radio_labs_-_closing.shtml",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003e\u003ca title\u003d\"Zippy Shut Up. by stev.ie, on Flickr\" href\u003d\"http://www.flickr.com/photos/winton/12630541/\"\u003e\u003cimg src\u003d\"http://farm1.static.flickr.com/10/12630541_0900e3005e.jpg\" alt\u003d\"Zippy Shut Up.\" width\u003d\"600\" height\u003d\"450\"\u003e\u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eSorry but after 2 years the Radio Labs blog is now closed. The extensive archive will of course remain online and the BBC still has a number of blogs devoted to research and development, technology and radio. Blog posts about DAB, semantic web, radio streams, innovation using the \u003ca href\u003d\"http://www.bbc.co.uk/programmes/developers\"\u003eBBC programmes platform,\u003c/a\u003e visualising radio and Radio Labs bloggers; Alan, Michael, Tristan and others who blogged here will continue to appear on other BBC blogs such as:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.bbc.co.uk/blogs/radio/\"\u003eBBC Radio blog:\u003c/a\u003e \u0026quot;BBC Director of Audio \u0026amp; Music Tim Davie and his team explain their decisions, highlight changes and share important news from all of BBC radio.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.bbc.co.uk/blogs/researchanddevelopment/\"\u003eBBC Research and Development blog:\u003c/a\u003e \u0026quot;where researchers, scientists and engineers from BBC R\u0026amp;D share their work in developing the media technologies of the future\u0026quot;\u003c/li\u003e\n\u003c/ul\u003e\n\u003cul\u003e\n\u003cli\u003e\u003ca href\u003d\"http://www.bbc.co.uk/blogs/bbcinternet/\"\u003eBBC Internet blog: \u003c/a\u003e\"Senior staff from the BBC's online and technology teams discuss issues raised by you about BBC Online, BBC iPlayer, the BBC's digital and mobile services, and the technology behind them. \u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThanks for subscribing.\u003c/p\u003e\n\u003cp\u003e\u003cem\u003eJem Stone is Executive Producer, Social Media, BBC Audio and Music.\u003c/em\u003e\u003c/p\u003e\n\u003cli\u003e The photo \u003ca title\u003d\"Zippy Shut Up\" href\u003d\"http://www.flickr.com/photos/winton/12630541/\"\u003e\"Zippy Shut Up\"\u003c/a\u003e is by Steve Winton and is used \u003ca href\u003d\"http://creativecommons.org/licenses/by/2.0/deed.en_GB\"\u003eunder  licence\u003c/a\u003e.\u003c/li\u003e"
+        },
+        "author": "Jem Stone",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://www.bbc.co.uk/blogs/radiolabs/atom.xml",
+            "title": "Radio Labs",
+            "htmlUrl": "http://www.bbc.co.uk/blogs/radiolabs/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286815991106",
+        "id": "tag:google.com,2005:reader/item/a4c5e5657459954b",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Docs", "MDN"],
+        "title": "Web Standards Doc Sprint — Finis!",
+        "published": 1286812608,
+        "updated": 1286815121,
+        "replies": [{
+            "href": "http://hacks.mozilla.org/2010/10/web-standards-doc-sprint-finis/#comments",
+            "type": "text/html"
+        },
+        {
+            "href": "http://hacks.mozilla.org/2010/10/web-standards-doc-sprint-finis/feed/atom/",
+            "type": "application/atom+xml"
+        }],
+        "alternate": [{
+            "href": "http://hacks.mozilla.org/2010/10/web-standards-doc-sprint-finis/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eFor the past three days, a small group of Mozillians met in Paris and, instead of enjoying the beautiful warm weather, insanely stayed inside and wrote documentation on web standards for the \u003ca href\u003d\"http://developer.mozilla.org\"\u003eMozilla Developer Network\u003c/a\u003e. We worked in the Mozilla Paris office on Saturday and Sunday, and then  on Monday moved to \u003ca href\u003d\"http://lacantine.org\"\u003eLa Cantine\u003c/a\u003e, around the corner, so the staff could use the office. We also enjoyed some long, relaxed French lunches and dinners and saw a bit of the city, but mostly we wrote docs.\u003cbr\u003e\n\u003ca href\u003d\"http://hacks.mozilla.org/2010/10/web-standards-doc-sprint-finis/mdn_doc_sprint/\" rel\u003d\"attachment wp-att-6300\"\u003e\u003cimg src\u003d\"http://hacks.mozilla.org/wp-content/uploads/2010/10/mdn_doc_sprint-500x375.jpg\" alt\u003d\"Doc sprint contributors sitting around a table\" title\u003d\"MDN Doc sprint\" width\u003d\"500\" height\u003d\"375\"\u003e\u003c/a\u003e\u003cbr\u003e\n“Action” shot of MDN doc sprint contributors (L-R: Jean-Yves Perrier, Florian Scholz, Eric Shepherd, Paul Rouget, Sebastian Perez Vasseur, Janet Swisher. Missing: David Bruant)\u003c/p\u003e\n\u003cp\u003eHere’s what we accomplished:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eDavid Bruant\n\u003cul\u003e\n\u003cli\u003eexpanded, updated, and enhanced \u003ca href\u003d\"https://developer.mozilla.org/en/JavaScript/Strict_mode\"\u003eJavaScript strict mode\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003eexpanded and added examples to \u003ca href\u003d\"https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object/defineProperty\"\u003eObject.defineProperty\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003eadded a section on \u003ca href\u003d\"https://developer.mozilla.org/en/JavaScript/Guide/Working_with_Objects#Enumerating_all_properties_of_an_object\"\u003eEnumerating all properties of an object\u003c/a\u003e to the topic on working with JavaScript objects;\u003c/li\u003e\n\u003cli\u003ereviewed and corrected \u003ca href\u003d\"https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Object#Methods\"\u003eObject method\u003c/a\u003e topics.\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eSebastian Perez Vasseur\n\u003cul\u003e\n\u003cli\u003ewrote \u003ca href\u003d\"https://developer.mozilla.org/en/Introducing_the_Audio_API_Extension\"\u003eIntroducing the Audio API extension\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Visualizing_Audio_Spectrum\"\u003eVisualizing Audio Spectrum\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Creating_a_Web_based_tone_generator\"\u003eCreating a Web based tone generator\u003c/a\u003e, and \u003ca href\u003d\"https://developer.mozilla.org/en/Displaying_the_Mozilla_logo_with_the_Audio_Samples\"\u003eDisplaying the Mozilla logo with the Audio Samples\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003ewrote \u003ca href\u003d\"https://developer.mozilla.org/en/SVG/SVG_animation_with_SMIL\"\u003eSVG animation with SMIL\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003edocumented \u003ca href\u003d\"https://developer.mozilla.org/en/DOM/NotifyAudioAvailableEvent\"\u003eNotifyAudioAvailableEvent\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003ecreated a \u003ca href\u003d\"https://developer.mozilla.org/en/HTML/HTML5/HTML5_Thematic_Classification\"\u003ethematic classification for HTML5 topics\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003ecreated a banner for HTML5 topics, and added it to appropriate pages;\u003c/li\u003e\n\u003cli\u003eadded Mozilla-specific properties to \u003ca href\u003d\"https://developer.mozilla.org/en/DOM/HTMLMediaElement\"\u003eHTMLMediaElement\u003c/a\u003e;\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003eFlorian Scholz (aka Elchi3)\n\u003cul\u003e\n\u003cli\u003edocumented 21 out of 30 \u003ca href\u003d\"https://developer.mozilla.org/en/MathML/Element\"\u003eMathML elements\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003erestructured the \u003ca href\u003d\"https://developer.mozilla.org/en/SVG/Element\"\u003eSVG element reference\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cli\u003eJean-Yves Perrier (aka teoli)\n\u003cul\u003e\n\u003cli\u003ewrote an \u003ca href\u003d\"https://developer.mozilla.org/en/HTTP\"\u003eintroduction to HTTP\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003ecreated a page to collect topics on \u003ca href\u003d\"https://developer.mozilla.org/en/HTTP/Headers\"\u003eHTTP headers\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003ecreated a page for \u003ca href\u003d\"https://developer.mozilla.org/en/HTTP/HTTP_response_codes\"\u003eHTTP response codes\u003c/a\u003e;\u003c/li\u003e\n\u003cli\u003estarted documenting \u003ca href\u003d\"https://developer.mozilla.org/en/HTML/HTML5/Constraint_validation\"\u003eHTML5 constraint validation\u003c/a\u003e.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cli\u003eEric Shepherd (aka Sheppy)\n\u003cul\u003e\n\u003cli\u003ewrote \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP\"\u003eCSP overview\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP/Introducing_Content_Security_Policy\"\u003eIntroducing Content Security Policy\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP/Using_Content_Security_Policy\"\u003eUsing Content Security Policy\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP/Default_CSP_restrictions\"\u003eDefault CSP restrictions\u003c/a\u003e, \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP/CSP_policy_directives\"\u003eCSP policy directives\u003c/a\u003e, and \u003ca href\u003d\"https://developer.mozilla.org/en/Security/CSP/Using_CSP_violation_reports\"\u003eUsing CSP violation reports\u003c/a\u003e;\n\u003cli\u003ecreated scripts to generate tables-of-contents both alphabetically and by-category automatically;\u003c/li\u003e\n\u003cli\u003edocumented \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/-moz-image-rect\"\u003e-moz-image-rect\u003c/a\u003e and \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/-moz-calc\"\u003e-moz-calc\u003c/a\u003e;\n\u003cli\u003eimproved topics on \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/CSS_transitions\"\u003eCSS transitions\u003c/a\u003e and \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/-moz-transition\"\u003e-moz-transition\u003c/a\u003e based on feedback from David Baron;\u003c/li\u003e\n\u003cli\u003ecleaned up \u003ca href\u003d\"https://developer.mozilla.org/en/Firefox_4_for_developers\"\u003eFirefox 4 for developers\u003c/a\u003e.\u003c/li\u003e\n\u003c/li\u003e\u003c/li\u003e\u003c/ul\u003e\n\u003cli\u003eJanet Swisher\n\u003cul\u003e\n\u003cli\u003eedited \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/Getting_Started\"\u003eCSS Getting started tutorial\u003c/a\u003e, part I, and added \u003ca href\u003d\"https://developer.mozilla.org/en/CSS/Getting_Started/Challenge_solutions\"\u003esolutions to the exercises\u003c/a\u003e and links to properties in the CSS Reference;\u003c/li\u003e\n\u003cli\u003ewrote this blog post, which is documentation \u003cem\u003eof\u003c/em\u003e the sprint :-)\u003c/li\u003e\n\u003c/ul\u003e\n\u003c/li\u003e\n\u003cli\u003ePaul Rouget was a fantastic “localhost” and technical reviewer. Expect to see more awesome stuff from him in the coming days and weeks.\u003c/li\u003e\n\u003c/li\u003e\u003c/li\u003e\u003c/li\u003e\u003c/ul\u003e\n\u003cp\u003eIt takes a special kind of person to set aside a weekend when they could be having other kinds of fun or maintaining a personal life, to devote to writing technical documentation. The documentation that was written this weekend moves MDN further towards the goal of being a comprehensive, usable, and accurate resource for everyone developing for the Open Web. Many thanks once again to the volunteer contributors, as well as to the Mozilla Paris staff who welcomed us and facilitated our visit. \u003c/p\u003e\n\u003cp\u003eFor a final taste of life in France, we will now attempt to travel during a French transit strike.\u003c/p\u003e"
+        },
+        "author": "Janet Swisher",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://hacks.mozilla.org/feed/atom/",
+            "title": "Mozilla Hacks - the Web developer blog",
+            "htmlUrl": "http://hacks.mozilla.org/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286809809095",
+        "id": "tag:google.com,2005:reader/item/be06283842f863bb",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Uncategorized", "Apache", "Atom Syndication Format", "ClearBearing", "CouchDB", "FOSS", "Found Line", "HTTP", "Mobile Computing", "nginx", "Open Standards", "PHP", "Public Media", "REST", "Vermont", "VPR", "Zend Framework"],
+        "title": "Behind The New VPR Homepage",
+        "published": 1286809787,
+        "updated": 1286809787,
+        "replies": [{
+            "href": "http://bradley-holt.com/2010/10/behind-the-new-vpr-homepage/#comments",
+            "type": "text/html"
+        },
+        {
+            "href": "http://bradley-holt.com/2010/10/behind-the-new-vpr-homepage/feed/atom/",
+            "type": "application/atom+xml"
+        }],
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/bradley-holt/~3/PuvbNDtc8LA/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003e\u003ca href\u003d\"http://foundline.com/\"\u003eFound Line\u003c/a\u003e had the privilege of designing and developing \u003ca href\u003d\"http://www.vpr.net/\"\u003eVermont Public Radio\u003c/a\u003e’s (VPR) new homepage. VPR’s Online Manager, Jonathan Butler, wrote a blog post about how the \u003ca href\u003d\"http://vprblog.blogspot.com/2010/10/new-vprnet-homepage.html\"\u003eredesigned homepage delivers more content to VPR.net visitors.\u003c/a\u003e Here I’ll talk about the technology behind this new homepage.\u003c/p\u003e\n\u003ch3\u003eAtom Syndication Format\u003c/h3\u003e\n\u003cp\u003eMost of VPR’s web content is currently stored in a proprietary content management system (CMS). The first step was publishing the needed content from the CMS out into an open format. VPR’s Dan Allen published from the CMS \u003ca href\u003d\"http://www.atomenabled.org/\"\u003eAtom\u003c/a\u003e feeds of the various content we would need for the new homepage.\u003c/p\u003e\n\u003ch3\u003ePHP and Zend Framework\u003c/h3\u003e\n\u003cp\u003eOnce we had the needed Atom feeds, we created a \u003ca href\u003d\"http://framework.zend.com/\"\u003eZend Framework\u003c/a\u003e web application to import these feeds. Components such as \u003ca href\u003d\"http://framework.zend.com/manual/en/zend.feed.reader.html\"\u003eZend_Feed_Reader\u003c/a\u003e made the job easier. The weather data comes from the National Oceanic and Atmospheric Administration’s (NOAA) National Weather Service’s \u003ca href\u003d\"http://www.weather.gov/forecasts/xml/rest.php\"\u003eNational Digital Forecast Database XML/REST Service\u003c/a\u003e. The market data comes from the \u003ca href\u003d\"http://code.google.com/apis/finance/\"\u003eGoogle Finance API\u003c/a\u003e.\u003c/p\u003e\n\u003ch3\u003eCouchDB\u003c/h3\u003e\n\u003cp\u003eAll of the data (except for weather, which is pulled directly with a bit of caching) is stored in \u003ca href\u003d\"http://couchdb.apache.org/\"\u003eCouchDB\u003c/a\u003e. Since we’re storing documents with varying metadata (i.e. Atom entries) choosing a document-oriented database made a lot of sense. CouchDB’s map/reduce views make for very efficient queries. Its RESTful HTTP API provides a lot of options for scaling and caching. We’re caching documents within the Zend Framework application and conditionally requesting these documents from CouchDB with ETags when a cache is available. The current cache is simply file-based but we’re considering using \u003ca href\u003d\"http://memcached.org/\"\u003eMemcached\u003c/a\u003e for even better performance. On a related note, the homepage itself also supports conditional HTTP requests.\u003c/p\u003e\n\u003ch3\u003eApache and nginx\u003c/h3\u003e\n\u003cp\u003eWe had the pleasure of working with another great Vermont company, \u003ca href\u003d\"http://www.clearbearing.com/\"\u003eClearBearing\u003c/a\u003e, on this project. ClearBearing handles the infrastructure layer for \u003ca href\u003d\"http://www.vpr.net/\"\u003eVPR.net\u003c/a\u003e. The current website was (and still is) served up by \u003ca href\u003d\"http://httpd.apache.org/\"\u003eApache\u003c/a\u003e. ClearBearing already had \u003ca href\u003d\"http://nginx.org/\"\u003enginx\u003c/a\u003e in place as a reverse proxy to handle caching. Since we weren’t replacing the entire CMS we needed a way for the existing CMS and this new application to coexist. We decided to host the new application separately (still administered by ClearBearing) and reverse proxy requests for certain URIs (primarily the homepage) to the new application. This provides a clean separation between the new application and the existing CMS while still allowing for them to be hosted on the same domain from an end-user perspective.\u003c/p\u003e\n\u003ch3\u003eLicensing\u003c/h3\u003e\n\u003cp\u003eYou’ll notice that all of the standards used are open standards and all of the technologies used are free and open source software. Additionally, all of the code we have written for VPR is licensed to them under the permissive \u003ca href\u003d\"http://www.opensource.org/licenses/bsd-license.php\"\u003eNew BSD License\u003c/a\u003e. This means that VPR is free to use this code however they want, study and modify the code, and redistribute the code as-is or modified. They can do all of this without paying additional licensing fees.\u003c/p\u003e\n\u003ch3\u003eDesign\u003c/h3\u003e\n\u003cp\u003eWhile this post is primarily about the technology behind VPR’s new homepage, I should mention that Found Line’s \u003ca href\u003d\"http://foundline.com/people/jason-pelletier\"\u003eJason Pelletier\u003c/a\u003e designed the new homepage and implemented all of its HTML and CSS. We worked closely with Jonathan Butler and John Van Hoesen, Vice President for News \u0026amp; Programming, to make sure the new design meets the needs of website visitors and the organization.\u003c/p\u003e\n\u003ch3\u003eNext Steps\u003c/h3\u003e\n\u003cp\u003eThe launch of this new homepage was just one iteration with many more to come. As Jonathan Butler mentioned in his blog post, VPR has plans to further improve online services for their listeners. Look for a redesigned VPR Classical page soon. There are also plans for better mobile access to VPR and VPR Classical programming. Fortunately much of the work that has been done can be leveraged to create additional online services for VPR’s listeners.\u003c/p\u003e\n\u003cp\u003eA special thanks for the \u003ca href\u003d\"http://www.vpr.net/support/\"\u003esupport of VPR’s listeners\u003c/a\u003e—you made this new homepage possible! If you have questions, comments, complaints, or suggestions about the new homepage then please \u003ca href\u003d\"http://www.vpr.net/inside_vpr/contact_us/?subject\u003dVPR+Homepage\"\u003econtact VPR\u003c/a\u003e directly with your feedback (although you’re welcome to comment here as well).\u003c/p\u003e\n\u003cimg src\u003d\"http://feeds.feedburner.com/~r/bradley-holt/~4/PuvbNDtc8LA\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "author": "Bradley Holt",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://bradley-holt.blogspot.com/feeds/posts/default",
+            "title": "Bradley Holt",
+            "htmlUrl": "http://bradley-holt.com/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286798979811",
+        "id": "tag:google.com,2005:reader/item/757541e07ddb66d5",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Echipa", "Munca", "Romania", "Tehnologie"],
+        "title": "Echipe din ADRO: Rich Media Solutions",
+        "published": 1286798972,
+        "updated": 1286799714,
+        "replies": [{
+            "href": "http://myadobe.ro/2010/10/11/echipe-din-adro-rich-media-solutions/#comments",
+            "type": "text/html"
+        },
+        {
+            "href": "http://myadobe.ro/2010/10/11/echipe-din-adro-rich-media-solutions/feed/atom/",
+            "type": "application/atom+xml"
+        }],
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/DespreAdobeRomania/~3/mZnhQ4Jes70/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eAstazi continuam prezentarea echipelor din Adobe Romania. Si pentru ca nu putem pune titlul “Solutii media bogate”, iar restul traducerilor ar suna la fel de rau, ne-am gandit sa punem direct in engleza descrierile urmatoare. In cazul in care aveti obiectii asteptam rosiile si ouale stricate in comentarii, dar decat romgleza parca mai bine engleza \u003cimg src\u003d\"http://myadobe.ro/wp-includes/images/smilies/icon_smile.gif\" alt\u003d\":)\"\u003e .\u003c/p\u003e\n\u003cp\u003eIn continuare aveti cele 3 echipe care formeaza bucata de Rich Media Solutions.\u003c/p\u003e\n\u003ch2\u003eMedia Measurement\u003c/h2\u003e\n\u003cp\u003eThe vision of the Media Measurement project is to make video measurement a Flash Player feature that can be easily used by customers with as little custom development and hackery as possible. We’re aiming to make Flash video content measurable by ensuring that the right events are consistently present across delivery methods while also aiming to make the implementation a breeze by fully decoupling video player implementation from measurement implementation.  By streamlining media measurement, publishers and advertisers can easily gain insights into their business and focus on expanding the market rather that dealing with unneeded complexities.\u003c/p\u003e\n\u003ch2\u003eFlash Media Playback\u003c/h2\u003e\n\u003cp\u003eBased on Adobe’s powerful Open Source Media Framework, Flash Media Playback aims to be the default media player application of the next generation web. Its main aim is to reduce the complexity of using a video player for non-developers, provide excellent out of the box functionality while also maintaining extensibility via third party plugins. It comes in two flavours – an open source SWF that can be fine-tuned to your needs (Strobe Media Playback) or a adobe.com hosted SWF that can be directly used from HTML (Flash Media Playback). Oh, and did we mention it’s open source?\u003c/p\u003e\n\u003ch2\u003eTV-Everywhere\u003c/h2\u003e\n\u003cp\u003eThe way we watch television is rapidly changing – we’re no longer content with a laid-back TV watching experience. Instead, we want to decide what to watch, when to watch it and on what device to watch it. TV Everywhere is a major initiative started by the world largest media creation companies (Time Warner, Turner, Viacom, Disney, NBC Universal etc) and the world’s largest media distribution companies (Cable, Telco, Satellite, etc) to allow users to do just that, all without changing the 50 billion dollars industry that is television today. It’s the first step towards the next generation television and we at Adobe are proud to be playing a key part in it.\u003c/p\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eMedia Measurement\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eThe vision of Media Measurement project is to make video measurement a Flash Player feature that can be easily used by customers with as little custom development and hackery as possible. We’re aiming to make Flash video content measurable by ensuring that the right events are consistently present across delivery methods while also aiming to make the implementation a breeze by fully decoupling video player implementation from measurement implementation.  By streamlining media measurement, publishers and advertisers can easily gain insights into their business and focus on expanding the market rather that dealing with unneeded complexities.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eStrobe.swf\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eBased on Adobe’s powerful Open Source Media Framework, Strobe.SWF aims to be the default media player application of the next generation web. Its main aim is to reduce the complexity of using a video player for non-developers, provide excellent out of the box functionality while also maintaining extensibility via third party plugins. It comes in two flavours – an open source SWF that can be fine-tuned to your needs (Strobe Media Player) or a adobe.com hosted SWF that can be directly used from HTML (Flash Media Player). Oh, and did we mention it’s open source?\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eTV-Everywhere\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eThe way we watch television is rapidly changing – we’re no longer content with a laid-back TV watching experience. Instead, we want to decide what to watch, when to watch it and on what device to watch it. TV Everywhere is a major initiative started by the world largest media creation companies (Time Warner, Viacom, Disney, NBC Universal etc) and the world’s largest media distribution companies (Cable, Telco, Satellite, etc) to allow users to do just that, all without changing the 50 billion dollars industry that is television today. It’s the first step towards the next generation television and we at Adobe are proud to be playing a key part in it.\u003c/div\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.addtoany.com/share_save\"\u003e\u003cimg src\u003d\"http://myadobe.ro/wp-content/plugins/add-to-any/share_save_171_16.png\" width\u003d\"171\" height\u003d\"16\" alt\u003d\"Share\"\u003e\u003c/a\u003e \u003c/p\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~r/DespreAdobeRomania/~4/mZnhQ4Jes70\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "author": "mneagu",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.feedburner.com/DespreAdobeRomania",
+            "title": "Despre Adobe Romania",
+            "htmlUrl": "http://myadobe.ro/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286798979811",
+        "id": "tag:google.com,2005:reader/item/f5a2a4f92bc0258a",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Evenimente", "Romania"],
+        "title": "Donare de sange",
+        "published": 1286796864,
+        "updated": 1286796864,
+        "replies": [{
+            "href": "http://myadobe.ro/2010/10/11/donare-de-sange/#comments",
+            "type": "text/html"
+        },
+        {
+            "href": "http://myadobe.ro/2010/10/11/donare-de-sange/feed/atom/",
+            "type": "application/atom+xml"
+        }],
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/DespreAdobeRomania/~3/9j777EtIg7A/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003ePentru ca multa lume are nevoie de ajutor ne-am gandit sa intindem si noi o mana acolo unde putem. Lunea viitoare vom organiza o zi de donare de sange la noi la sediu, cu ajutorul \u003ca href\u003d\"http://www.pentruviata.com/\"\u003eAsociatie React \u003c/a\u003esi al Centrului de Transfuzii Bucuresti.\u003c/p\u003e\n\u003cp\u003eIn cazul in care doresti sa devii si tu donator \u003ca href\u003d\"https://spreadsheets.google.com/ccc?key\u003d0AmIZqfSK5m3JdERlaXNXdWhNaEtseVpKQnRZc1Roanc\u0026amp;hl\u003den\"\u003eesti asteptat cu mare drag\u003c/a\u003e. Vom incerca pe cat posibil sa programam oamenii, si te vom anunta de joi/vineri care este ora la care trebuie sa vii. In cazul in care iti aduci colegi din aceeasi companie veti fi grupati impreuna pentru a putea veni si pleca impreuna. De toate detaliile organizatorice ne ocupam noi, a\u003ca href\u003d\"https://spreadsheets.google.com/ccc?key\u003d0AmIZqfSK5m3JdERlaXNXdWhNaEtseVpKQnRZc1Roanc\u0026amp;hl\u003den\"\u003evem nevoie doar de voluntari. \u003c/a\u003e\u003c/p\u003e\n\u003cp\u003eMai jos avem un mic ghid al donatorului, pentru a putea raspunde la cateva din intrebarile voastre. Pentru orice alte detalii puteti trimite un mail la mneagu (at) adobe.com. \u003ca href\u003d\"https://spreadsheets.google.com/ccc?key\u003d0AmIZqfSK5m3JdERlaXNXdWhNaEtseVpKQnRZc1Roanc\u0026amp;hl\u003den\"\u003ePentru inscriere accesati link-ul acesta.\u003c/a\u003e\u003c/p\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eGhidul donatorului\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ePoţi\u003cspan style\u003d\"white-space:pre\"\u003e \u003c/span\u003esă donezi? Pentru a putea\u003cspan style\u003d\"white-space:pre\"\u003e \u003c/span\u003edeveni donator de sânge, trebuie să îndeplineşti următoarele condiţii:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003evârsta cuprinsă în intervalul 18-60 ani\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003egreutate 58-100kg femeile şi 60-110kg bărbaţii\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003etensiune arterială sistolică între 11 şi 18mmH\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003esă nu fi suferit în ultimele luni intervenţii chirurgicale\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003efemeile să nu fie: însărcinate, în perioada de lăuzie, în perioada menstruală\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003esă nu fi consumat grăsimi sau băuturi alcoolice cu cel puţin 24 de ore înaintea donării\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003esă nu ai/să nu fi avut urmatoarele boli:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ehepatită (de orice tip)\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eTBC\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003esifilis\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003emalarie\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eepilepsie\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ebruceloză\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eulcer\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ediabet zaharat\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eboli de inimă\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eboli de piele\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003emiopie peste (-) 6 dioptrii\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eÎnainte de a dona:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eDimineaţa înainte de recoltare poţi consuma o cană cu ceai sau cafea, un mic dejun puţin consistent, legume, fructe\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eFără proteine, grăsimi (lapte, unt, carne, etc)\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eNu fuma înainte şi după donare cu o oră\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eAvantajele donării:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eUrmătoarele analize sunt gratuite: RH; Grupa sangvină; Hepatita B, C; HIV(SIDA); HTLV (leucemie); VDRL (siffilis); ALT (probe hepatice).\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eLa cerere, ai posibilitatea efectuării ulterioare şi a altor analize gratuite (calcemie, glicemie, transaminaze, colesterol, EKG, radiografie pulmonară)\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eAdeverinţa pentru obţinerea unei reduceri de 50% pentru transportul în comun pentru 30 de zile\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003e1 zi liberă (în cazul angajaţilor cu carte de muncă)\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ePrimeşti 7 bonuri de masă în valoare de aproximativ 50 RON\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eCât se donează:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eLa o donare se recoltează 450 ml de sânge, cantitate ce se reface: ca volum in câteva ore, celular în 2 săptămâni.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eSiguranţa:\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eTrusa utilizată pentru fiecare donare este sterilă şi de unică folosinţă.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eNu există riscul contaminării cu HIV, sau alte virusuri.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eSenzaţia de leşin sau oboseală după donare este foarte rar intâlnită.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003ePoţi dona doar dacă starea de sănătate îţi permite şi te simţi bine.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eînaintea donării ţi se vor pune câteva întrebări legate de starea de sănătate şi ţi se va face un mic examen medical – hemoglobina, puls, tensiune.\u003c/div\u003e\n\u003cdiv style\u003d\"width:1px;height:1px;overflow-x:hidden;overflow-y:hidden\"\u003eRezultatele testelor sunt confidenţiale.\u003c/div\u003e\n\u003ch2\u003ePoţi să donezi? Pentru a putea deveni donator de sânge, trebuie să îndeplineşti următoarele condiţii:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003evârsta cuprinsă în intervalul 18-60 ani\u003c/li\u003e\n\u003cli\u003egreutate 58-100kg femeile şi 60-110kg bărbaţii\u003c/li\u003e\n\u003cli\u003etensiune arterială sistolică între 11 şi 18mmH\u003c/li\u003e\n\u003cli\u003esă nu fi suferit în ultimele luni intervenţii chirurgicale\u003c/li\u003e\n\u003cli\u003efemeile să nu fie: însărcinate, în perioada de lăuzie, în perioada menstruală\u003c/li\u003e\n\u003cli\u003esă nu fi consumat grăsimi sau băuturi alcoolice cu cel puţin 24 de ore înaintea donării\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003esă nu ai/să nu fi avut urmatoarele boli:\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003ehepatită (de orice tip)\u003c/li\u003e\n\u003cli\u003eTBC\u003c/li\u003e\n\u003cli\u003esifilis\u003c/li\u003e\n\u003cli\u003emalarie\u003c/li\u003e\n\u003cli\u003eepilepsie\u003c/li\u003e\n\u003cli\u003ebruceloză\u003c/li\u003e\n\u003cli\u003eulcer\u003c/li\u003e\n\u003cli\u003ediabet zaharat\u003c/li\u003e\n\u003cli\u003eboli de inimă\u003c/li\u003e\n\u003cli\u003eboli de piele\u003c/li\u003e\n\u003cli\u003emiopie peste (-) 6 dioptrii\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eÎnainte de a dona:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eDimineaţa înainte de recoltare poţi consuma o cană cu ceai sau cafea, un mic dejun puţin consistent, legume, fructe\u003c/li\u003e\n\u003cli\u003eFără proteine, grăsimi (lapte, unt, carne, etc)\u003c/li\u003e\n\u003cli\u003eNu fuma înainte şi după donare cu o oră\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eAvantajele donării:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eUrmătoarele analize sunt gratuite: RH; Grupa sangvină; Hepatita B, C; HIV(SIDA); HTLV (leucemie); VDRL (siffilis); ALT (probe hepatice).\u003c/li\u003e\n\u003cli\u003eLa cerere, ai posibilitatea efectuării ulterioare şi a altor analize gratuite (calcemie, glicemie, transaminaze, colesterol, EKG, radiografie pulmonară)\u003c/li\u003e\n\u003cli\u003eAdeverinţa pentru obţinerea unei reduceri de 50% pentru transportul în comun pentru 30 de zile\u003c/li\u003e\n\u003cli\u003e1 zi liberă (în cazul angajaţilor cu carte de muncă)\u003c/li\u003e\n\u003cli\u003ePrimeşti 7 bonuri de masă în valoare de aproximativ 50 RON\u003c/li\u003e\n\u003c/ul\u003e\n\u003ch2\u003eCât se donează:\u003c/h2\u003e\n\u003cp\u003eLa o donare se recoltează 450 ml de sânge, cantitate ce se reface: ca volum in câteva ore, celular în 2 săptămâni.\u003c/p\u003e\n\u003ch2\u003eSiguranţa:\u003c/h2\u003e\n\u003cul\u003e\n\u003cli\u003eTrusa utilizată pentru fiecare donare este sterilă şi de unică folosinţă.\u003c/li\u003e\n\u003cli\u003eNu există riscul contaminării cu HIV, sau alte virusuri.\u003c/li\u003e\n\u003cli\u003eSenzaţia de leşin sau oboseală după donare este foarte rar intâlnită.\u003c/li\u003e\n\u003cli\u003ePoţi dona doar dacă starea de sănătate îţi permite şi te simţi bine.\u003c/li\u003e\n\u003cli\u003eînaintea donării ţi se vor pune câteva întrebări legate de starea de sănătate şi ţi se va face un mic examen medical – hemoglobina, puls, tensiune.\u003c/li\u003e\n\u003cli\u003eRezultatele testelor sunt confidenţiale.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003ca href\u003d\"http://www.addtoany.com/share_save\"\u003e\u003cimg src\u003d\"http://myadobe.ro/wp-content/plugins/add-to-any/share_save_171_16.png\" width\u003d\"171\" height\u003d\"16\" alt\u003d\"Share\"\u003e\u003c/a\u003e \u003c/p\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~r/DespreAdobeRomania/~4/9j777EtIg7A\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "author": "mneagu",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.feedburner.com/DespreAdobeRomania",
+            "title": "Despre Adobe Romania",
+            "htmlUrl": "http://myadobe.ro/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286797424141",
+        "id": "tag:google.com,2005:reader/item/b4add5ff294d129c",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "Society"],
+        "title": "Organising front-end meetings or conferences in your own town",
+        "published": 1286798091,
+        "updated": 1286798210,
+        "alternate": [{
+            "href": "http://www.quirksmode.org/blog/archives/2010/10/organising_fron.html",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eOver the past few weeks I’ve had essentially the same conversation with\n\u003ca href\u003d\"http://www.linkedin.com/in/georgipetrov\"\u003eGeorgi Petrov\u003c/a\u003e from Sofia, Bulgaria; \u003ca href\u003d\"http://leaverou.me/\"\u003eLea Verou\u003c/a\u003e from Athens, Greece; and a gentleman from Bologna, Italy, whose name I didn’t catch (please leave a comment if you read this).\u003c/p\u003e\n\n\u003cp\u003eAll three wanted to do something about front-end in their own town, but all three seemed to think there was some kind of black magic involved in getting well-known speakers to your conference or even getting together a few people to talk about geeky stuff.\u003c/p\u003e\n\n\u003cp\u003eSo it’s time to talk about organising front-end meetings or conferences and how black magic is not necessary.\u003c/p\u003e\n\u003cp\u003eI’m especially thinking of the European continent because over here the time for widespread and massive front-end organising seems to have come; but it really goes for anyone anywhere.\u003c/p\u003e\n\n\u003ch3\u003eThe golden rule\u003c/h3\u003e\n\n\u003cp\u003eThe golden rule is: \u003cstrong\u003eJust Do It\u003c/strong\u003e. Really; it’s as simple as that.\u003c/p\u003e\n\n\u003cp\u003eIf you feel it would be cool to meet up with other front-end engineers and discuss geeky stuff, show off your latest design, or just commiserate about IE6 over a few beers, chances are other front-enders will feel exactly the same and will react enthusiastically when you propose to meet up.\u003c/p\u003e\n\n\u003cp\u003eI told all this to Lea and the Italian, and both agreed in principle but pointed out that it was so hard to get the message out there. They had blogs, but one was fairly unknown and the other mostly read by foreigners. But when I pressed them they admitted to knowing popular bloggers, and on further reflection agreed these bloggers might be willing to spread the word.\u003c/p\u003e\n\n\u003cp\u003eHell, I’ll spread the word if you write a blog post and \u003ca href\u003d\"http://www.quirksmode.org/contact.html\"\u003egive me\u003c/a\u003e a link, a date, and a city.\u003c/p\u003e\n\n\u003ch3\u003eA meet-up\u003c/h3\u003e\n\n\u003cp\u003eSo do it. Pick a pub with no loud music, pick a night when it’s relatively quiet, tell people about it, approach well-known bloggers from your part of the woods to spread the word, and sit together, have a few drinks, and talk.\u003c/p\u003e\n\n\u003cp\u003eSure, the first time only ten people might show up. But a good time will be had by all, and when you repeat it one or two months later, twenty people will show up. And the next time even more, or somebody else will organise something similar.\u003c/p\u003e\n\n\u003cp\u003eThe real revelation comes a bit later, when you find you’ve missed a good meet-up but realise that \u003cem\u003eit does not matter\u003c/em\u003e because another meet-up will come. You’ll discover you have a thriving meet-up ecosystem in your very own town that will go on no matter what.\u003c/p\u003e\n\n\u003cp\u003eIt takes surprisingly little energy to kick-start the process. Keeping it running is a whole lot more work; certainly once the first excitement wears off and it becomes just another volunteer job. But even if you don’t feel up to it, somebody else in your town might. But you first have to get him or her excited by organising that all-important first meeting.\u003c/p\u003e\n\n\u003ch3\u003eMeetings at companies\u003c/h3\u003e\n\n\u003cp\u003eThe Italian asked about getting a local company to host a meeting. Here in the Netherlands we do that all the time, but I advised him not to follow our example.\u003c/p\u003e\n\n\u003cp\u003e\u003ca href\u003d\"http://fronteers.nl\"\u003eFronteers\u003c/a\u003e organises roughly one meeting per month with about 40 to 60 people. Usually a meeting runs from 18:00 to 22:00 and is hosted by a local web company that arranges some light refreshments and snacks as well as projectors and such. We have two main speakers who each talk for half an hour to an hour, and afterwards there’s beer and geeky talk.\u003c/p\u003e\n\n\u003cp\u003eUsually we are contacted by a front-ender employed by the host company. Central planner \u003ca href\u003d\"http://arjaneising.nl/\"\u003eArjan Eising\u003c/a\u003e arranges a few details, most importantly avoiding planning clashes with other meetings, and sometimes one or both speakers. The brunt of the organisation generally lies with the person who contacted us. Occasionally we provide modest financial assistance; for instance for student groups.\u003c/p\u003e\n\n\u003cp\u003eIt’s a fun format; clearly one step above the informal meet-up, but still easy to arrange and short enough to do after working hours. (Incidentally, we’re \u003ca href\u003d\"http://fronteers.nl/bijeenkomsten/organiseren\"\u003elooking for\u003c/a\u003e host companies for our next few meetings.)\u003c/p\u003e\n\n\u003cp\u003eStill, I do not advise you to copy this format. The danger exists that the first host company would try to unduly influence the group.\u003c/p\u003e\n\n\u003cp\u003eHere at home I avoided that by reaching out to the lead front-end engineers of many of the largest web companies and capture their interest with the Fronteers concept. They convinced their bosses and hosted the first Fronteers meetings.\u003c/p\u003e\n\n\u003cp\u003eThus Fronteers was an equal partner to all host companies from the start, and that is an absolute requirement for this format to succeed.\u003c/p\u003e\n\n\u003cp\u003eThese initial circumstances depended largely on my personal status in the web world; I could easily unite those people that were interested in a formal organisation, and thus we had a quite powerful group that could discuss stuff on an equal footing with web companies.\u003c/p\u003e\n\n\n\u003ch3\u003eInviting speakers\u003c/h3\u003e\n\n\u003cp\u003eHowever, the advantage of being a Great Name primarily lies in this kind of political stuff. It does not help a lot when it comes to organising conference — well, a little bit, but not nearly as much as people seem to think.\u003c/p\u003e\n\n\u003cp\u003eAs I explained to Georgi, there is no black magic involved in getting Great Names to speak at your conference. You don’t need to be well-known, your conference does not need to be well-known.\u003c/p\u003e\n\n\u003cp\u003eInstead, you just shoot them an email. Really, that’s all there is to it.\u003c/p\u003e\n\n\u003cp\u003eSome conference organisers are afraid of doing that for reasons I don’t understand. \u003ca href\u003d\"http://adactio.com\"\u003eJeremy Keith\u003c/a\u003e won’t laugh at you if you ask him to speak; \u003ca href\u003d\"http://stuffandnonsense.co.uk/\"\u003eAndy Clarke\u003c/a\u003e won’t hard-boil you. \u003ca href\u003d\"http://www.wait-till-i.com/\"\u003eChris Heilmann\u003c/a\u003e \u003cem\u003ewill\u003c/em\u003e bite you, but only in an affectionate sort of way.\u003c/p\u003e\n\n\u003cp\u003eEvery speaker worth his or her salt will take your request completely seriously. They like public speaking and conferences; that’s why they do it so often. So considering another request is part of their job.\u003c/p\u003e\n\n\u003cp\u003eThere are really only three rules for inviting a Great Name to your conference:\u003c/p\u003e\n\n\u003col\u003e\n\t\u003cli\u003eYou send the invitation at least six and preferably nine months in advance of the conference.\u003c/li\u003e\n\t\u003cli\u003eYou arrange and pay for their flight and hotel.\u003c/li\u003e\n\t\u003cli\u003eYou don’t force them to comply with all kinds of bureaucratic rules. They will \u003cem\u003enot\u003c/em\u003e submit their presentation a month in advance. They want to be trusted.\u003c/li\u003e\n\u003c/ol\u003e\n\n\u003cp\u003eIf those rules are satisfied your request is serious and will be considered seriously.\u003c/p\u003e\n\n\u003cp\u003eThat doesn’t mean everybody will say Yes. They might have other commitments around that time, or try to get their traveling time down, or may not consider themselves the best match for your conference. Still, they’ll always reply to say why they can’t make it and be courteous throughout the process.\u003c/p\u003e\n\n\u003cp\u003eVaclav Stoupa invited me to speak at \u003ca href\u003d\"http://webexpo.cz/en/\"\u003eWebExpo\u003c/a\u003e, and Damian Wielgosik did the same for \u003ca href\u003d\"http://front-trends.com/\"\u003eFront Trends\u003c/a\u003e. I’d never heard of Vaclav or Damian, but that didn’t matter. Their conferences looked good, their invitation came well on time, they were paying my flight and hotel, and I didn’t have any previous commitments around those dates. So I said Yes.\u003c/p\u003e\n\n\u003cp\u003eThat was back in January. Then I decided to cut down on my conference schedule in 2010, so when several others asked me I said No in the politest way possible. I promised one of them to speak at her conference next year because I really want to go there.\u003c/p\u003e\n\n\u003cp\u003eThat’s how it works. Person to person. No black magic involved.\u003c/p\u003e\n\n\u003ch3\u003eWave of conferences\u003c/h3\u003e\n\n\u003cp\u003eA wave of web conferences is spreading over Europe. The UK had pride of place with the iconic @media 2005; the next year France followed with Paris Web. As far as I know my own Fronteers 2008 came next (leave a comment if I’m wrong), and nowadays most European countries have their own web conference.\u003c/p\u003e\n\n\u003cp\u003eThat’s what we need. Web design and development must be taken seriously as a separate technical discipline, in the minds of both outsiders and of web developers themselves. Conferences are an excellent way of doing that.\u003c/p\u003e\n\n\u003cp\u003eMost well-known speakers keep an eye on the burgeoning European web conference ecosystem. In fact, \u003ca href\u003d\"http://crockford.com/\"\u003eDouglas Crockford\u003c/a\u003e once told me explicitly he’s looking for conferences in Eastern Europe. So give the man a guided tour next year. He’ll love it. And he’ll speak at your conference.\u003c/p\u003e\n\n\u003ch3\u003eLet me know\u003c/h3\u003e\n\n\u003cp\u003eI’m curious. Please tell me where you live, and whether there’s a formal conference or a series of informal meet-ups in your neck of the woods. And if there’s nothing, organise something. Organising a meet-up doesn’t take that much time, and it’s fun. And \u003ca href\u003d\"http://www.quirksmode.org/contact.html\"\u003etell me\u003c/a\u003e; I’m willing to spread the word.\u003c/p\u003e\n\n\u003cp\u003eIf you’re from an English-speaking country or from the Netherlands, please do \u003cstrong\u003enot\u003c/strong\u003e reply. I want to know about the situation in other countries.\u003c/p\u003e"
+        },
+        "author": "ppk",
+        "likingUsers": [{
+            "userId": "17365284859316475862"
+        },
+        {
+            "userId": "01014446539998601099"
+        },
+        {
+            "userId": "16445675184758309588"
+        },
+        {
+            "userId": "10919714877829985375"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://www.quirksmode.org/blog/atom.xml",
+            "title": "QuirksBlog",
+            "htmlUrl": "http://www.quirksmode.org/blog/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286793871882",
+        "id": "tag:google.com,2005:reader/item/f79c2a300a31cf2c",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "The WebSocket Protocol",
+        "published": 1286792563,
+        "updated": 1286810027,
+        "alternate": [{
+            "href": "http://annevankesteren.nl/2010/10/websocket-protocol",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cdiv\u003e\u003cp\u003eDesktop just \u003ca href\u003d\"http://my.opera.com/desktopteam/blog/2010/10/11/websockets\"\u003ereleased Opera 10.70 build 9067\u003c/a\u003e which includes support for WebSockets and Server-Sent Events (\u003ccode\u003eEventSource\u003c/code\u003e). Simon Pieters and I also wrote blog posts for this release to explain \u003ca href\u003d\"http://my.opera.com/core/blog/websockets\"\u003eWebSockets in Opera\u003c/a\u003e and \u003ca href\u003d\"http://my.opera.com/core/blog/eventsource\"\u003eThe long journey of Server-Sent Events\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eServer-Sent Events is a stable feature at this point. The WebSocket API is too. The WebSocket Protocol is unclear. Opera implements what is known as the -76 version of the WebSocket Protocol, following Chrome 6 and betas of Firefox 4. Safari supports -76 since Safari 5.0.2.\u003c/p\u003e\n\u003cp\u003eThe WebSocket Protocol was initially developed by the WHATWG as part of HTML5 and then it moved to the IETF HyBi WG. Since not everyone was happy with the protocol a plan was set out a couple of months ago to come up with a better base protocol in four weeks so all vendors could quickly update their implementations before we got stuck — after a feature has been deployed by multiple vendors in interoperable fashion it becomes very hard to change course. This never happened. Updates have been published, but nothing concrete yet and with the discussions that are currently ongoing it does not seem like anything conclusive will arrive soon either. It will be interesting to see if we ever do get rid of -76.\u003c/p\u003e\u003c/div\u003e"
+        },
+        "likingUsers": [{
+            "userId": "15583421759365768508"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://annevankesteren.nl/feeds/weblog",
+            "title": "Anne’s Blog",
+            "htmlUrl": "http://annevankesteren.nl/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286791881911",
+        "id": "tag:google.com,2005:reader/item/182d079ff90ba661",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "json", "theoschlossnagle"],
+        "title": "A quote from Theo Schlossnagle",
+        "published": 1286795166,
+        "updated": 1286795166,
+        "alternate": [{
+            "href": "http://simonwillison.net/2010/Oct/11/json/",
+            "type": "text/html"
+        }],
+        "summary": {
+            "direction": "ltr",
+            "content": "\u003cdiv\u003e\u003cblockquote\u003e\u003cp\u003eJSON sucks. [...] Every time I need to (correctly) represent a large integer such as 4611686018427387900, I’m forced to do so in a string. It causes me to throw up in mouth a little.\u003c/p\u003e\u003c/blockquote\u003e\u003cp\u003e - \u003ca href\u003d\"http://lethargy.org/~jesus/writes/why-json-sucks\"\u003eTheo Schlossnagle\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e"
+        },
+        "likingUsers": [{
+            "userId": "00363647479470519434"
+        },
+        {
+            "userId": "00909334852237074683"
+        },
+        {
+            "userId": "05690229047086915053"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.simonwillison.net/swn-everything",
+            "title": "Simon Willison\u0026#39;s Weblog",
+            "htmlUrl": "http://simonwillison.net/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286786351671",
+        "id": "tag:google.com,2005:reader/item/6032540e7e652651",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "Web DOM Core History Notes",
+        "published": 1286786326,
+        "updated": 1286786326,
+        "alternate": [{
+            "href": "http://annevankesteren.nl/2010/10/domcore-history",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cdiv\u003e\u003cp\u003eFor a long time now an update to DOM Core was desired as \u003ca href\u003d\"http://www.w3.org/TR/2004/REC-DOM-Level-3-Core-20040407/\"\u003eDOM Level 3 Core\u003c/a\u003e has all kinds of deficiencies. Here are desired changes:\u003c/p\u003e\n\u003cul\u003e\n \u003cli\u003eHaving \u003ccode\u003egetAttribute()\u003c/code\u003e return null when the attribute does not exist.\u003c/li\u003e\n \u003cli\u003eNot throwing \u003ccode\u003eWRONG_DOCUMENT_ERR\u003c/code\u003e for using nodes across documents.\u003c/li\u003e\n \u003cli\u003eDefining how the non-namespaced methods (i.e. \u003ccode\u003egetElementsByTagName()\u003c/code\u003e, \u003ccode\u003ecreateElement()\u003c/code\u003e) work in a namespaced context.\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003eThe first two in this list are actually browser bugs from the early DOM implementations that did not get noticed and fixed on time. Meaning that websites rely on these features working in the “wrong way.” The flip-side is that the “wrong way” really is the “better way.” Not throwing exceptions and making things just work is much nicer for developers and having to separately invoke \u003ccode\u003ehasAttribute()\u003c/code\u003e to see whether an attribute exists is not too great either. The third is something that was left mostly undefined and has therefore always been a problem. However, it became more noticeable when HTML5 came along and made the DOM almost identical for HTML and XHTML.\u003c/p\u003e\n\u003cp\u003eIn addition to these DOM Level 3 Core also had all kinds of features nobody ever implemented and some features we wished were simpler. E.g. various validation features and ID attributes.\u003c/p\u003e\n\u003cp\u003eTaking this input, setting simplicity as a goal, and rewriting DOM Core from scratch is how we ended up with \u003ca href\u003d\"http://www.w3.org/TR/2010/WD-domcore-20101007/\"\u003eWeb DOM Core\u003c/a\u003e. And while I am listed as editor, a lot of work was already done for me. Simon Pieters wrote the original outline. When he could no longer work on it Geoffrey Sneddon forked it and continued, adding a small testsuite in the process. Then when Geoffrey Sneddon stopped working on it Ms2ger forked his work and continued working on it. It was only at that stage that I started helping out.\u003c/p\u003e\n\u003cp\u003eFeedback on Web DOM Core is very much appreciated by the way. Do email \u003ca href\u003d\"mailto:public-webapps@w3.org\"\u003epublic-webapps@w3.org\u003c/a\u003e if you want to influence DOM Core.\u003c/p\u003e\u003c/div\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://annevankesteren.nl/feeds/weblog",
+            "title": "Anne’s Blog",
+            "htmlUrl": "http://annevankesteren.nl/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286783786055",
+        "id": "tag:google.com,2005:reader/item/48130e52f0d4116d",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh"],
+        "title": "Twitter and Emails are good; Postcards are better",
+        "published": 1286782800,
+        "updated": 1286782800,
+        "alternate": [{
+            "href": "http://fabien.potencier.org/article/46/twitter-and-emails-are-good-postcards-are-better",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003eAs a lead developer of Symfony, I need feedback. Symfony being an Open-Source\nproject, there is no way I can know how many people are using it, who they are\nand what they do with it. That's fine and all, but sometimes, that would\nreally help me to know the Symfony user base a bit more. Sure enough, I have\nsome feedback via email and Twitter. Actually, I receive tons of\nemails every single day about Symfony and my other Open-Source projects (with a raising number of Git pull requests... keep them\ncoming by the way). But unfortunately, most of them are from\npeople complaining about something or asking me some more free stuff. I must\nadmit that this is depressing.\u003c/p\u003e\n\n\u003cp\u003eDuring the Symfony Day conference last week, I suggested that people send me a\npostcard if they use Symfony. The idea is not mine, as\n\u003ca href\u003d\"http://www.derickrethans.nl/xdebug-2-released.html\"\u003eDerick\u003c/a\u003e did the same a\ncouple of years ago for XDebug.\u003c/p\u003e\n\n\u003cp\u003eSo, if you use Symfony and enjoy it, consider sending me a postcard. Tell me\nwhy you are a Symfony user and what you do with it (if you're not comfortable with English, that's fine... I will also enjoy Japanese, Chinese, or Arabic postcards). You can send them to my\npersonal address:\u003c/p\u003e\n\n\u003cpre\u003eFabien Potencier\n\u003cspan\u003e5\u003c/span\u003e, allée des Rosiers\n\u003cspan\u003e78670\u003c/span\u003e Villennes-sur-seine\nFRANCE\n \u003c/pre\u003e\n\n\u003cp\u003eor to Sensio:\u003c/p\u003e\n\n\u003cpre\u003eSensio\nFabien Potencier\n\u003cspan\u003e92\u003c/span\u003e\u003cspan\u003e-98\u003c/span\u003e, boulevard Victor Hugo\n\u003cspan\u003e92115\u003c/span\u003e Clichy\nFRANCE\n \u003c/pre\u003e\n\n\u003cp\u003eAnd I have a dream that one day I will receive a postcard each time a new\nSymfony website is deployed to production.\u003c/p\u003e"
+        },
+        "author": "Fabien Potencier",
+        "likingUsers": [{
+            "userId": "06087995438442852610"
+        },
+        {
+            "userId": "05969551341138016821"
+        },
+        {
+            "userId": "07066529638660716102"
+        },
+        {
+            "userId": "01476917668200178031"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds.fabien.potencier.org/aidedecamp",
+            "title": "Fabien Potencier",
+            "htmlUrl": "http://fabien.potencier.org/"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286776205775",
+        "id": "tag:google.com,2005:reader/item/99efb4847059e37d",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "/Blog/Lets-Play"],
+        "title": "Let's Play TDD #33: Value Objects Pay Off",
+        "published": 1286784000,
+        "updated": 1286784000,
+        "alternate": [{
+            "href": "http://jamesshore.com/Blog/Lets-Play/Episode-33.html",
+            "type": "text/html"
+        }],
+        "summary": {
+            "direction": "ltr",
+            "content": "\u003ctable width\u003d\"100%\" border\u003d\"0\"\u003e\n      \u003ctr\u003e\n        \u003ctd align\u003d\"left\"\u003e\n          \u003cb\u003e11 Oct 2010\u003c/b\u003e\n        \u003c/td\u003e\n        \u003ctd align\u003d\"right\"\u003e\n          \u003ci\u003e \u003ca href\u003d\"http://jamesshore.com/Blog/Lets-Play/\"\u003eJames Shore/Blog/Lets-Play\u003c/a\u003e \u003c/i\u003e\n        \u003c/td\u003e\n      \u003c/tr\u003e\n    \u003c/table\u003e\n  \n    \n    \n      \n\u003cp\u003eBe sure to choose the 720p HD resolution for the most readable text.\u003c/p\u003e\n\n\u003cp\u003eThe source code for this episode \u003ca href\u003d\"http://github.com/jamesshore/lets_play_tdd/tree/9011b39870f68cb6e831a280edac5e5d6ec2b006\"\u003eis available here\u003c/a\u003e.\u003c/p\u003e\n\n\u003cembed src\u003d\"http://www.youtube.com/v/GGwh9LfniA8\u0026amp;hl\u003den_US\u0026amp;feature\u003dplayer_embedded\u0026amp;version\u003d3\" allowFullScreen\u003d\"true\" allowScriptAccess\u003d\"never\" width\u003d\"640\" height\u003d\"390\" wmode\u003d\"transparent\" type\u003d\"application/x-shockwave-flash\"\u003e\u003c/embed\u003e\n\n\u003cp\u003eVisit the \u003ca href\u003d\"http://jamesshore.com/Blog/Lets-Play/\"\u003eLet's Play archive\u003c/a\u003e for more.\u003c/p\u003e\n\n    \n    \n    \u003cp\u003e\u003ca href\u003d\"http://jamesshore.com/Blog/Lets-Play/Episode-33.html#comments\"\u003eComments\u003ca\u003e\u003cp\u003e\u003c/p\u003e\u003c/a\u003e\u003c/a\u003e\u003c/p\u003e"
+        },
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://jamesshore.com/index.rss",
+            "title": "James Shore",
+            "htmlUrl": "http://jamesshore.com"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286771195339",
+        "id": "tag:google.com,2005:reader/item/5d5f1b1cb20fe799",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "BestPractices", "APIs"],
+        "title": "7 Rules of Thumb When You Build an API",
+        "published": 1286769616,
+        "updated": 1286769616,
+        "alternate": [{
+            "href": "http://feedproxy.google.com/~r/ProgrammableWeb/~3/1sZsAHUEZEc/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp\u003e\u003ca href\u003d\"http://www.programmableweb.com/api/gnip\"\u003e\u003cimg src\u003d\"http://www.programmableweb.com/images/apis/at836.png\" alt\u003d\"Gnip\"\u003e\u003c/a\u003eConsuming APIs is something most developers–and even some non-developers–are doing most of the time. It’s becoming more common to build an API, in addition to using them. For all of those of you who are just getting your feet wet with this process, data portability service Gnip has shared \u003ca href\u003d\"http://blog.gnip.com/from-api-consumers-to-api-designers-a-wish-list/\"\u003ea few pointers\u003c/a\u003e to keep you on the straight and narrow.\u003c/p\u003e\n\u003cul\u003e\n\u003cli\u003eUse Standard HTTP Response Codes\u003c/li\u003e\n\u003cli\u003ePublish Your Rate Limits\u003c/li\u003e\n\u003cli\u003eUse Friendly Ids, Not System Ids\u003c/li\u003e\n\u003cli\u003eAllow Us to Limit Response Data\u003c/li\u003e\n\u003cli\u003eKeep Your Docs Up to Date\u003c/li\u003e\n\u003cli\u003ePublish Your Search Parameter Constraints\u003c/li\u003e\n\u003cli\u003eUse Your Mailing List\u003c/li\u003e\n\u003c/ul\u003e\n\u003cp\u003e\u003cimg title\u003d\"Thumbs Up\" src\u003d\"http://blog.programmableweb.com/wp-content/292642699_8e8a8b5aa8_t.jpg\" alt\u003d\"\" width\u003d\"69\" height\u003d\"100\"\u003eOne rule of thumb that stands out is to use standard response codes. It’s so easy to forget that sometimes there’s a \u003ca href\u003d\"http://www.w3.org/Protocols/rfc2616/rfc2616-sec10.html\"\u003eHTTP response code\u003c/a\u003e that could be used in place of an in-content message. This can save bandwidth and is more standards-compliant, and therefore more predictable to code against.\u003c/p\u003e\n\u003cp\u003eAnd there’s a really important note too about keeping documentation up to date. It’s so important that it’s a matter of life and death (of your API). So, try to stay on top of the docs and read our \u003ca href\u003d\"http://blog.programmableweb.com/2010/08/12/web-api-documentation-best-practices/\"\u003eWeb API Documentation Best Practices\u003c/a\u003e.\u003c/p\u003e\n\u003cp\u003eYou’ll be able to build a much happier community around your tools if you provide them with a clear set of instructions and an open channel of positive communication. This will definitely get you the thumbs-up from other developers. And don’t forget: a happy community is a vocal one!\u003c/p\u003e\n\u003cp\u003eBe sure to \u003ca href\u003d\"http://blog.gnip.com/from-api-consumers-to-api-designers-a-wish-list/\"\u003eread Gnip’s entire list\u003c/a\u003e, which includes additional information about each guideline.\u003c/p\u003e\n\u003cp\u003ePhoto by \u003ca href\u003d\"http://www.flickr.com/photos/joeltelling/292642699/\"\u003ejoeltelling\u003c/a\u003e\u003c/p\u003e\n\u003cdiv\u003e\u003ch5\u003eRelated ProgrammableWeb Resources\u003c/h5\u003e\u003cp\u003e\u003cimg src\u003d\"http://www.google.com/s2/favicons?domain\u003dgoogle.com\" alt\u003d\"Gnip\"\u003e \u003ca href\u003d\"http://www.programmableweb.com/api/gnip\"\u003eGnip API Profile\u003c/a\u003e\u003c/p\u003e\n\u003c/div\u003e\u003cdiv\u003e\n\u003ca href\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?a\u003d1sZsAHUEZEc:VqCCKaEVas8:yIl2AUoC8zA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?d\u003dyIl2AUoC8zA\" border\u003d\"0\"\u003e\u003c/a\u003e \u003ca href\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?a\u003d1sZsAHUEZEc:VqCCKaEVas8:7Q72WNTAKBA\"\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~ff/ProgrammableWeb?d\u003d7Q72WNTAKBA\" border\u003d\"0\"\u003e\u003c/a\u003e\n\u003c/div\u003e\u003cimg src\u003d\"http://feeds.feedburner.com/~r/ProgrammableWeb/~4/1sZsAHUEZEc\" height\u003d\"1\" width\u003d\"1\"\u003e"
+        },
+        "author": "Simon Hamp",
+        "likingUsers": [{
+            "userId": "10635849356756771227"
+        },
+        {
+            "userId": "07268145224739680674"
+        }],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://feeds2.feedburner.com/programmableweb",
+            "title": "ProgrammableWeb",
+            "htmlUrl": "http://blog.programmableweb.com"
+        }
+    },
+    {
+        "crawlTimeMsec": "1286764532136",
+        "id": "tag:google.com,2005:reader/item/956eab9bfac5a949",
+        "categories": ["user/13806261218130155658/state/com.google/reading-list", "user/13806261218130155658/state/com.google/fresh", "SQL", "Andrew Hutchings", "MariaDB", "MySQL", "Plugins", "Sergei Golubchik", "UDF"],
+        "title": "A review of MySQL 5.1 Plugin Development by Golubchik and Hutchings",
+        "published": 1286763116,
+        "updated": 1286763116,
+        "replies": [{
+            "href": "http://www.xaprb.com/blog/2010/10/10/a-review-of-mysql-5-1-plugin-development-by-golubchik-and-hutchings/#comments",
+            "type": "text/html"
+        },
+        {
+            "href": "http://www.xaprb.com/blog/2010/10/10/a-review-of-mysql-5-1-plugin-development-by-golubchik-and-hutchings/feed/atom/",
+            "type": "application/atom+xml"
+        }],
+        "alternate": [{
+            "href": "http://www.xaprb.com/blog/2010/10/10/a-review-of-mysql-5-1-plugin-development-by-golubchik-and-hutchings/",
+            "type": "text/html"
+        }],
+        "content": {
+            "direction": "ltr",
+            "content": "\u003cp style\u003d\"float:left\"\u003e\u003cdiv style\u003d\"width:135px\"\u003e\u003ca href\u003d\"http://www.amazon.com/dp/1849510601/?tag\u003dxaprb-20\"\u003e\u003cimg src\u003d\"http://www.xaprb.com/blog/wp-content/uploads/2010/10/mysql-plugin-development.jpg\" alt\u003d\"MySQL 5.1 Plugin Development\" title\u003d\"MySQL 5.1 Plugin Development\" width\u003d\"125\" height\u003d\"152\"\u003e\u003c/a\u003e\u003cp\u003eMySQL 5.1 Plugin Development\u003c/p\u003e\u003c/div\u003e\u003c/p\u003e\n\n\u003cp\u003e\u003ca href\u003d\"http://www.amazon.com/dp/1849510601/?tag\u003dxaprb-20\"\u003eMySQL 5.1 Plugin Development\u003c/a\u003e, by Sergei Golubchik and Andrew Hutchings, Packt 2010.  About 250 pages.  (Here’s a \u003ca href\u003d\"https://www.packtpub.com/mysql-5-1-plugins-development/book\"\u003elink to the publisher’s site\u003c/a\u003e.)\u003c/p\u003e\n\n\u003cp\u003eThis book is well worth reading for anyone interested in MySQL internals.  I learned a lot from it.  It is well-written and understandable.  I cannot say that I’m planning to write storage engines or more advanced plugins, but I have a great many ideas how to improve MySQL, and I now understand more clearly which of those are suitable to write as plugins, and of what type of plugin is appropriate.  I also think I have a better idea how much work these various ideas might involve.\u003c/p\u003e\n\n\u003cp\u003eThe book begins with an orientation to building plugins on various platforms.  Next it covers user-defined functions (UDFs).  I have written UDFs, but that’s as far as I have gone with MySQL plugins.  The rest of the book covers Daemon plugins, INFORMATION_SCHEMA plugins, full-text parser plugins, and storage engine plugins from basic to advanced.  The last example is a nearly complete storage engine built on Tokyo Cabinet, with some pretty advanced functionality.  It finishes with a quick overview of the types of plugins available in development and future versions of MySQL, and what’s possible in MariaDB.\u003c/p\u003e\n\n\u003cp\u003eThe examples are full code listings, with paragraphs of text alternating with a few lines of code.  It’s like reading a really well-commented C program, like reading InnoDB source, but with even more explanations.  You can download everything you need to build and run the examples yourself — even the sample images used for demonstrating full-text search of EXIF data.\u003c/p\u003e\n\n\u003cp\u003eI enjoyed reading about what’s possible in MariaDB.  I had not kept up-to-date with the work that’s being done there.  If I were a storage engine developer, I’m sure I would appreciate what MariaDB has done.  I would speculate that many of the people who’ve written in-house custom storage engines for their own businesses might find MariaDB interesting.\u003c/p\u003e\n\n\u003cp\u003eI think that anyone who is planning to modify the MySQL source code should read this book.  It could save a lot of work and show easier ways to do things.  I learned a lot about the MySQL source code that I have not gotten from other places.  This one will go onto my \u003ca href\u003d\"http://www.xaprb.com/blog/essential-books/\"\u003elist of essential books for MySQL users\u003c/a\u003e.\u003c/p\u003e\n\n\u003cp\u003eRelated posts:\u003col\u003e\u003cli\u003e\u003ca href\u003d\"http://www.xaprb.com/blog/2010/02/19/a-review-of-understanding-mysql-internals-by-sasha-pachev/\" rel\u003d\"bookmark\" title\u003d\"Permanent Link: A review of Understanding MySQL Internals by Sasha Pachev\"\u003eA review of Understanding MySQL Internals by Sasha Pachev\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href\u003d\"http://www.xaprb.com/blog/2008/08/18/how-maatkit-benefits-from-test-driven-development/\" rel\u003d\"bookmark\" title\u003d\"Permanent Link: How Maatkit benefits from test-driven development\"\u003eHow Maatkit benefits from test-driven development\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href\u003d\"http://www.xaprb.com/blog/2007/02/10/a-review-of-pro-mysql-kruckenberg-and-pipes-apress-2005/\" rel\u003d\"bookmark\" title\u003d\"Permanent Link: A review of Pro MySQL (Kruckenberg and Pipes, Apress 2005)\"\u003eA review of Pro MySQL (Kruckenberg and Pipes, Apress 2005)\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href\u003d\"http://www.xaprb.com/blog/2007/11/26/four-companies-to-sponsor-maatkit-development/\" rel\u003d\"bookmark\" title\u003d\"Permanent Link: Four companies to sponsor Maatkit development\"\u003eFour companies to sponsor Maatkit development\u003c/a\u003e\u003c/li\u003e\u003cli\u003e\u003ca href\u003d\"http://www.xaprb.com/blog/2010/01/15/review-get-it-done-with-mysql-peter-brawley-arthur-fuller/\" rel\u003d\"bookmark\" title\u003d\"Permanent Link: A review of Get it Done with MySQL 5\u0026amp;6 by Peter Brawley and Arthur Fuller\"\u003eA review of Get it Done with MySQL 5\u0026amp;6 by Peter Brawley and Arthur Fuller\u003c/a\u003e\u003c/li\u003e\u003c/ol\u003e\u003c/p\u003e"
+        },
+        "author": "Xaprb",
+        "likingUsers": [],
+        "comments": [],
+        "annotations": [],
+        "origin": {
+            "streamId": "feed/http://www.xaprb.com/blog/feed/atom/",
+            "title": "Xaprb",
+            "htmlUrl": "http://www.xaprb.com/blog"
+        }
+    }]
+}

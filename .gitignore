@@ -1,0 +1,11 @@
+*.user
+*.suo
+*.sln.cache
+
+# NUnit stuff
+*.VisualState.xml
+TestResult.xml
+
+bin
+obj
+publish
