@@ -18,10 +18,12 @@ namespace Nemira
         public AddSubscription()
         {
             InitializeComponent();
+            Loaded += new RoutedEventHandler(OnLoaded);
         }
 
-        private void OnOkClick(object sender, RoutedEventArgs e)
+        void OnLoaded(object sender, RoutedEventArgs e)
         {
+            feedUrl.Text = Clipboard.GetText();
         }
     }
 }
