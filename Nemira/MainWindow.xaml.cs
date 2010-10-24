@@ -77,6 +77,9 @@ namespace Nemira
             {
                 var subscription = subscriptions.SelectedItem as Subscription;
 
+                editSubscription.IsEnabled = true;
+                deleteSubscription.IsEnabled = true;
+
                 feedTitle.Text = subscription.Title;
                 feedItemTooltip.Content = subscription.SourceUrl;
                 sourceHyperlink.NavigateUri = new Uri(subscription.SourceUrl);
@@ -86,12 +89,21 @@ namespace Nemira
             {
                 var item = subscriptions.SelectedItem as SubscriptionItem;
 
+                editSubscription.IsEnabled = false;
+                deleteSubscription.IsEnabled = false;
+
                 feedTitle.Text = item.Title;
                 feedItemTooltip.Content = "Open in default Web browser";
                 sourceHyperlink.NavigateUri = new Uri(item.SourceUrl);
 
                 PopulateContentPane(item.Content);
             }
+        }
+
+        private void OnUnselectedFeed(object sender, RoutedEventArgs e)
+        {
+            editSubscription.IsEnabled = false;
+            deleteSubscription.IsEnabled = false;
         }
 
         private void OnExpandedSubscription(object sender, RoutedEventArgs e)

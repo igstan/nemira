@@ -11,6 +11,50 @@
         TextOptions.TextFormattingMode="Display"
         FocusManager.FocusedElement="{Binding ElementName=subscriptions}"
         Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
+
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}" x:Key="DeleteSubscriptionButton">
+            <Setter Property="Content">
+                <Setter.Value>
+                    <Image>
+                        <Image.Source>
+                            <FormatConvertedBitmap Source="Images/feed_delete.png" DestinationFormat="Gray8" />
+                        </Image.Source>
+                    </Image>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="True">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <Image Source="Images/feed_delete.png"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style TargetType="{x:Type Button}" x:Key="RenameSubscriptionButton">
+            <Setter Property="Content">
+                <Setter.Value>
+                    <Image>
+                        <Image.Source>
+                            <FormatConvertedBitmap Source="Images/feed_edit.png" DestinationFormat="Gray8" />
+                        </Image.Source>
+                    </Image>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsEnabled" Value="True">
+                    <Setter Property="Content">
+                        <Setter.Value>
+                            <Image Source="Images/feed_edit.png"/>
+                        </Setter.Value>
+                    </Setter>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
     <Grid>
 
         <DockPanel HorizontalAlignment="Stretch" Margin="0,0,0,0">
@@ -45,13 +89,28 @@
                                  IsLocked="True"
                                  Background="Transparent">
                         <ToolBar Margin="0,2,0,2">
-                            <Button Padding="5,5,5,5" Click="OnAddSubscription">
+                            <Button Padding="5,5,5,5"
+                                    Click="OnAddSubscription"
+                                    ToolTip="Add Subscription">
                                 <Image Source="Images/feed_add.png"/>
                             </Button>
+                            <Separator/>
+                            <Button IsEnabled="False"
+                                    Padding="5,5,5,5"
+                                    Name="editSubscription"
+                                    ToolTip="Rename Subscription"
+                                    Style="{DynamicResource RenameSubscriptionButton}"/>
+                            <Separator/>
+                            <Button IsEnabled="False"
+                                    Padding="5,5,5,5"
+                                    Name="deleteSubscription"
+                                    ToolTip="Delete Subscription"
+                                    Style="{DynamicResource DeleteSubscriptionButton}"/>
                         </ToolBar>
                     </ToolBarTray>
                     <TreeView Name="subscriptions"
                               TreeViewItem.Selected="OnSelectedFeed"
+                              TreeViewItem.Unselected="OnUnselectedFeed"
                               TreeViewItem.Expanded="OnExpandedSubscription"
                               FontSize="13"
                               FontFamily="Tahoma"
