@@ -110,5 +110,16 @@ namespace GoogleReader.API
 
             httpClient.POST(urls.AddSubscription, args);
         }
+
+        public void RemoveSubscription(Subscription subscription)
+        {
+            var args = new Dictionary<string, string>()
+            {
+                {"ac", "unsubscribe"},
+                {"s", subscription.Id},
+            };
+
+            httpClient.POST(urls.RemoveSubscription, args);
+        }
     }
 }
