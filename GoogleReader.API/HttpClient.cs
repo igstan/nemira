@@ -9,5 +9,6 @@ namespace GoogleReader.API
     {
         string GET(string url);
         string GET(string url, IDictionary<string, string> args);
+        string POST(string url, IDictionary<string, string> args);
     }
 }

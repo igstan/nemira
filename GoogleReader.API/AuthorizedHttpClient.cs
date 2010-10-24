@@ -31,6 +31,16 @@ namespace GoogleReader.API
             return base.GET(url, args, headers);
         }
 
+        public override string POST(string url, IDictionary<string, string> args, IDictionary<string, string> headers)
+        {
+            if (NotAuthorized()) Authorize();
+
+            args.Add("T", readerToken);
+            headers.Add("Authorization", String.Format("GoogleLogin auth={0}", authToken));
+
+            return base.POST(url, args, headers);
+        }
+
         private bool NotAuthorized()
         {
             return authToken == null && readerToken == null;
@@ -44,13 +54,13 @@ namespace GoogleReader.API
 
         private string Authenticate(string email, string password)
         {
-            var response = POST(LOGIN_URL, new Dictionary<string, string>()
+            var response = base.POST(LOGIN_URL, new Dictionary<string, string>()
             {
                 {"Email", email},
                 {"Passwd", password},
                 {"source", "cli-script"},
                 {"service", "reader"},
-            });
+            }, new Dictionary<string, string>() { });
 
             return response.Split('\n')[2].Split('=')[1];
         }

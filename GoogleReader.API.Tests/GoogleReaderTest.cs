@@ -14,6 +14,7 @@ namespace GoogleReader.API.Tests
         {
             SubscriptionList = "subscriptions-url",
             SubscriptionItems = "subscription-items-url",
+            AddSubscription = "add-subscription",
         };
 
         [Test]
@@ -94,6 +95,19 @@ namespace GoogleReader.API.Tests
             Assert.AreEqual("Dummy Content", reader.ItemsForSubscription(subscription).ElementAt(0).Content);
         }
 
+        [Test]
+        public void CanAddNewSubscription()
+        {
+            var httpClient = new StubHttpClient()
+            {
+                ExpectedUrl = endpointUrls.AddSubscription,
+                ExpectedResponse = "",
+            };
+
+            var reader = new ReaderAccount(httpClient, endpointUrls);
+            reader.AddSubscription("http://feeds.feedburner.com/ajaxian");
+        }
+
         class StubHttpClient : HttpClient
         {
             public string ExpectedUrl { get; set; }
@@ -107,6 +121,12 @@ namespace GoogleReader.API.Tests
             }
 
             public string GET(string url, IDictionary<string, string> args)
+            {
+                Assert.AreEqual(ExpectedUrl, url);
+                return ExpectedResponse;
+            }
+
+            public string POST(string url, IDictionary<string, string> args)
             {
                 Assert.AreEqual(ExpectedUrl, url);
                 return ExpectedResponse;

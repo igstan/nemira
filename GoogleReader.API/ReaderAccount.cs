@@ -100,5 +100,15 @@ namespace GoogleReader.API
                 SourceUrl = sourceUrl,
             };
         }
+
+        public void AddSubscription(string subscriptionUrl)
+        {
+            var args = new Dictionary<string, string>()
+            {
+                {"quickadd", subscriptionUrl},
+            };
+
+            httpClient.POST(urls.AddSubscription, args);
+        }
     }
 }
