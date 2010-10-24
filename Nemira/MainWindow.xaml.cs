@@ -22,6 +22,8 @@ namespace Nemira
 {
     public partial class MainWindow : Window
     {
+        private ReaderAccount readerAccount;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -53,13 +55,15 @@ namespace Nemira
 
         public void OpenAccount(string email, string pass)
         {
-            PopulateSubscriptionsTree(email, pass);
+            this.readerAccount = new ReaderAccount(email, pass);
+
+            PopulateSubscriptionsTree();
             Show();
         }
 
-        private void PopulateSubscriptionsTree(string email, string pass)
+        private void PopulateSubscriptionsTree()
         {
-            subscriptions.ItemsSource = new Subscriptions(new ReaderAccount(email, pass));
+            subscriptions.ItemsSource = new Subscriptions(readerAccount);
         }
 
         private void OnAddFeed(object sender, RoutedEventArgs e)
@@ -118,12 +122,14 @@ namespace Nemira
 
         private void OnAddSubscription(object sender, RoutedEventArgs e)
         {
-            //var addSubscriptionWindow = new AddSubscription();
-            //addSubscriptionWindow.Owner = this;
-            //addSubscriptionWindow.ShowDialog();
+            var addSubscriptionDialog = new AddSubscription();
+            addSubscriptionDialog.Owner = this;
 
-            //MessageBox.Show(addSubscriptionWindow.FeedUrl.Text);
-            MessageBox.Show("Not Implemented");
+            if (addSubscriptionDialog.ShowDialog() == true)
+            {
+                readerAccount.AddSubscription(addSubscriptionDialog.FeedUrl);
+                subscriptions.ItemsSource = new Subscriptions(readerAccount);
+            }
         }
     }
 
