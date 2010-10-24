@@ -143,6 +143,20 @@ namespace Nemira
                 subscriptions.ItemsSource = new Subscriptions(readerAccount);
             }
         }
+
+        private void OnDeleteSubscription(object sender, RoutedEventArgs e)
+        {
+            var subscription = subscriptions.SelectedItem as Subscription;
+            var message = String.Format("Unsubscribe from {0}?", subscription.Title);
+            var title = "Confirm Unsubscribe";
+            var button = MessageBoxButton.OKCancel;
+            var icon = MessageBoxImage.Warning;
+
+            if (MessageBox.Show(message, title, button, icon) == MessageBoxResult.OK) {
+                readerAccount.RemoveSubscription(subscription);
+                subscriptions.ItemsSource = new Subscriptions(readerAccount);
+            }
+        }
     }
 
     public class Subscriptions : ObservableCollection<Subscription>
