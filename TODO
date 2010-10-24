@@ -12,3 +12,4 @@ TODO
 - delay loading when quickly navigating with the arrow keys
 - refresh subscriptions
 - add architectural docs
+- decode HTML entities in feed entry titles
