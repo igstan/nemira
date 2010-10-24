@@ -77,7 +77,7 @@ namespace GoogleReader.API
         {
             if (args.Count == 0) return string.Empty;
 
-            return args.Keys.Zip(args.Values, (key, value) => key + "=" + value)
+            return args.Keys.Zip(args.Values, (key, value) => Uri.EscapeDataString(key) + "=" + Uri.EscapeDataString(value))
                             .Aggregate((previous, current) => previous + "&" + current);
         }
     }
