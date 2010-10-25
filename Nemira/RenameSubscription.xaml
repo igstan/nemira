@@ -33,7 +33,7 @@
                     Orientation="Horizontal"
                     HorizontalAlignment="Right"
                     Margin="0,5,0,0">
-            <Button Click="OnSubmit" Content="Add" Padding="10,2,10,2"/>
+            <Button Click="OnSubmit" Content="Add" Padding="10,2,10,2" IsDefault="True"/>
             <Button IsCancel="True" Content="Cancel" Margin="5,0,0,0" Padding="10,2,10,2"/>
         </StackPanel>
 
