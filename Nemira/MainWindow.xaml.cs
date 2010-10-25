@@ -157,6 +157,20 @@ namespace Nemira
             }
         }
 
+        private void OnRenameSubscription(object sender, RoutedEventArgs e)
+        {
+            var subscription = subscriptions.SelectedItem as Subscription;
+            var renameDialog = new RenameSubscription();
+            renameDialog.Owner = this;
+            renameDialog.SubscriptionName = subscription.Title;
+
+            if (renameDialog.ShowDialog() == true)
+            {
+                readerAccount.RenameSubscription(subscription, renameDialog.SubscriptionName);
+                LoadSubscriptions();
+            }
+        }
+
         private void LoadSubscriptions()
         {
             subscriptions.ItemsSource = new Subscriptions(readerAccount);

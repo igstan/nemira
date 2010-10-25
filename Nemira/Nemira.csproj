@@ -103,6 +103,9 @@
     <Compile Include="LoginWindow.xaml.cs">
       <DependentUpon>LoginWindow.xaml</DependentUpon>
     </Compile>
+    <Compile Include="RenameSubscription.xaml.cs">
+      <DependentUpon>RenameSubscription.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StubHttpClient.cs" />
     <Page Include="Buttons.xaml">
       <SubType>Designer</SubType>
@@ -125,6 +128,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="AddSubscription.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="RenameSubscription.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

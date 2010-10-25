@@ -99,6 +99,7 @@
                                     Padding="5,5,5,5"
                                     Name="editSubscription"
                                     ToolTip="Rename Subscription"
+                                    Click="OnRenameSubscription"
                                     Style="{DynamicResource RenameSubscriptionButton}"/>
                             <Separator/>
                             <Button IsEnabled="False"
