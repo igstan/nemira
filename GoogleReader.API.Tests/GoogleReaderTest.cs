@@ -126,7 +126,25 @@ namespace GoogleReader.API.Tests
                 return ExpectedResponse;
             }
 
+            public string GET(string url, IDictionary<string, string> args, IDictionary<string, string> headers)
+            {
+                Assert.AreEqual(ExpectedUrl, url);
+                return ExpectedResponse;
+            }
+
+            public string POST(string url)
+            {
+                Assert.AreEqual(ExpectedUrl, url);
+                return ExpectedResponse;
+            }
+
             public string POST(string url, IDictionary<string, string> args)
+            {
+                Assert.AreEqual(ExpectedUrl, url);
+                return ExpectedResponse;
+            }
+
+            public string POST(string url, IDictionary<string, string> args, IDictionary<string, string> headers)
             {
                 Assert.AreEqual(ExpectedUrl, url);
                 return ExpectedResponse;
