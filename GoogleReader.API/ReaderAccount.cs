@@ -7,7 +7,7 @@ using System.Text;
 
 namespace GoogleReader.API
 {
-    public class ReaderAccount
+    public partial class ReaderAccount
     {
         private HttpClient httpClient;
         private ReaderUrls urls;
