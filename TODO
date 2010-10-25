@@ -13,3 +13,4 @@ DONE - change subscription name
 - refresh subscriptions
 - add architectural docs
 - decode HTML entities in feed entry titles
+- run HTTP request on a separate thread (i.e. not the UI thread)
