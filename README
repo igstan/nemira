@@ -4,6 +4,12 @@ Nemira is a desktop client for Google Reader API. I've created it in order to
 learn C# and WPF (Windows Presentation Foundation).
 
 
+INSTALLATION
+============
+An executable may be downloaded from http://igstan.ro/nemira/. Download setup.exe
+from the above address and follow the standard installation procedures.
+
+
 ARCHITECTURE OVERVIEW
 =====================
 The Nemira project is the one that handles all UI related stuff, like displaying
