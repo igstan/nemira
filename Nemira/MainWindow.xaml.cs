@@ -164,19 +164,7 @@ namespace Nemira
 
         private void LoadSubscriptions()
         {
-            subscriptions.ItemsSource = new Subscriptions(readerAccount);
-        }
-    }
-
-    public class Subscriptions : ObservableCollection<Subscription>
-    {
-        public Subscriptions(ReaderAccount account)
-            : base()
-        {
-            foreach (var subscription in account.Subscriptions)
-            {
-                Add(subscription);
-            }
+            subscriptions.ItemsSource = new SubscriptionCollection(readerAccount);
         }
     }
 }

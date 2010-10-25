@@ -107,6 +107,7 @@
       <DependentUpon>RenameSubscription.xaml</DependentUpon>
     </Compile>
     <Compile Include="StubHttpClient.cs" />
+    <Compile Include="SubscriptionCollection.cs" />
     <Page Include="Buttons.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
