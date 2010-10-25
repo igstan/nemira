@@ -1,0 +1,97 @@
+WHAT IS THIS PROJECT
+====================
+Nemira is a desktop client for Google Reader API. I've created it in order to
+learn C# and WPF (Windows Presentation Foundation).
+
+
+ARCHITECTURE OVERVIEW
+=====================
+The Nemira project is the one that handles all UI related stuff, like displaying
+of windows and event handling. It delegates to classes in the GoogleReader.API
+project when it has to read/create/update/delete (CRUD) subscriptions.
+
+The GoogleReader.API.Tests project contains a few tests I wrote while exploring
+Google's API. The Nemira.Tests project is, unfortunately, just a skeleton.
+
+
+The ReaderAccount class
+-----------------------
+The ReaderAccount class is the heart of the Reader API wrapper. Basically, it
+exposes a set of methods that are direct corespondents of the methods exposed
+by Google's Reader API. ReaderAccount is open for extension by having a constructor
+that receives an HttpClient and an instance of a config object representing
+endpoint URLs to the Google service.
+
+Because the HTTP client is pluggable, a lot of things are possible without even
+touching the internals of the ReaderAccount class:
+
+  - local caching of subscriptions
+  - use of stub subscriptions instead of real ones (see StubHttpClient class
+    inside the Nemira project)
+  - different forms of authentication
+
+For convenience, I've added a constructor that takes an user email and password
+an uses them to instantiate some default dependencies.
+
+
+Authentication
+--------------
+Authentication took advantage of the above design and was implemented as a
+decorator (AuthorizedHttpClient) over the SimpleHttpClient class. Basically,
+each HTTP request is decorated to include an Authorization header and a Google
+Reader token.
+
+The Google Reader API provides two authentication and authorization methods:
+  - using OAuth, which is the recommended option
+  - using the so called Client Login, which makes use of custom HTTP headers and
+    is deprecated in favor of OAuth.
+
+I chose to use the second method because it's easier to implement. OAuth would
+have required a proxy or an embedded server to be implemented. However, because
+the authentication and authorization mechanism is pluggable it shoulnd't be so
+hard to provide an HTTP client that would decorate requests with OAuth info.
+
+
+Reading Google's Responses
+--------------------------
+The ReaderAccount class makes a pretty big assumptions when it comes to reading
+Google's responses. It expects JSON, and this thing is hardcoded inside the
+internals of the class. Swapping to XML, for example, would require changes in
+the internals of the class. However, I thought that this kind of flexibility
+isn't yet necessary. Construnction of domain objects is also hard coded inside
+the ReaderAccount class, and maybe it would have been nice to have some factories
+for this, but... those objects are generally value objects. Even if they have
+behavior, this is usually delegated back to a ReaderAccount instance (for example,
+the Subscription class uses delegation in its Items property).
+
+
+Error Handling
+--------------
+It's almost totally missing at this time. I've concentrated more on getting
+some functionality up and running, than on treating HTTP network erros or JSON
+parsing errors. This is an item on the TODO list though.
+
+
+Performance
+-----------
+This is a weak point too. The main subscription tree loads items for *all* the
+subscriptions as soon as the app starts up. Deferred loading, using the Expanded
+event of TreeViewItem should solve this problem and it's on the TODO list too.
+
+Also, quickly navigating with the arrow keys through subscription items will
+load cause that item's content to be loaded inside the content area without any
+timeout at all. A timeout period of 4-5 milliseconds before loading the content
+would be a nice thing to have.
+
+
+Content Area
+------------
+Each feed item that Google sends contains HTML markup. For this reason I had
+too use an embedded Internet Explorer browser as a display.
+
+
+User Interface
+--------------
+Main entry point is the App class, which will show a LoginWindow when the app
+starts up, the then the MainWindow instance. The other UI classes should have
+pretty descriptive names for what they do.
