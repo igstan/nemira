@@ -119,7 +119,19 @@ namespace GoogleReader.API
                 {"s", subscription.Id},
             };
 
-            httpClient.POST(urls.RemoveSubscription, args);
+            httpClient.POST(urls.EditSubscription, args);
+        }
+
+        public void RenameSubscription(Subscription subscription, string newName)
+        {
+            var args = new Dictionary<string, string>()
+            {
+                {"ac", "edit"},
+                {"s", subscription.Id},
+                {"t", newName}
+            };
+
+            httpClient.POST(urls.EditSubscription, args);
         }
     }
 }

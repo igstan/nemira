@@ -10,6 +10,6 @@ namespace GoogleReader.API
         public string SubscriptionList = "https://www.google.com/reader/api/0/subscription/list";
         public string SubscriptionItems = "https://www.google.com/reader/api/0/stream/contents/";
         public string AddSubscription = "http://www.google.com/reader/api/0/subscription/quickadd";
-        public string RemoveSubscription = "http://www.google.com/reader/api/0/subscription/edit";
+        public string EditSubscription = "http://www.google.com/reader/api/0/subscription/edit";
     }
 }
