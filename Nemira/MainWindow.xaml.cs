@@ -158,9 +158,8 @@ namespace Nemira
         private void OnRenameSubscription(object sender, RoutedEventArgs e)
         {
             var subscription = subscriptions.SelectedItem as Subscription;
-            var renameDialog = new RenameSubscription();
+            var renameDialog = new RenameSubscription(subscription);
             renameDialog.Owner = this;
-            renameDialog.SubscriptionName = subscription.Title;
 
             if (renameDialog.ShowDialog() == true)
             {
