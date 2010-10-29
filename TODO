@@ -11,6 +11,6 @@ DONE - change subscription name
 - lazy load subscriptions (on expand event)
 - delay loading when quickly navigating with the arrow keys
 - refresh subscriptions
-- add architectural docs
+DONE - add architectural docs
 - decode HTML entities in feed entry titles
 - run HTTP request on a separate thread (i.e. not the UI thread)
