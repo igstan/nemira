@@ -125,12 +125,12 @@ namespace Nemira
 
         private void AddSubscription(object sender, ExecutedRoutedEventArgs e)
         {
-            var addSubscriptionDialog = new AddSubscription();
-            addSubscriptionDialog.Owner = this;
+            var addDialog = new AddDialog();
+            addDialog.Owner = this;
 
-            if (addSubscriptionDialog.ShowDialog() == true)
+            if (addDialog.ShowDialog() == true)
             {
-                readerAccount.AddSubscription(addSubscriptionDialog.FeedUrl);
+                readerAccount.AddSubscription(addDialog.FeedUrl);
                 LoadSubscriptions();
             }
         }
@@ -158,7 +158,7 @@ namespace Nemira
         private void OnRenameSubscription(object sender, RoutedEventArgs e)
         {
             var subscription = subscriptions.SelectedItem as Subscription;
-            var renameDialog = new RenameSubscription(subscription);
+            var renameDialog = new RenameDialog(subscription);
             renameDialog.Owner = this;
 
             if (renameDialog.ShowDialog() == true)

@@ -6,9 +6,9 @@ using System.Windows;
 
 namespace Nemira
 {
-    public partial class AddSubscription : Window
+    public partial class AddDialog : Window
     {
-        public AddSubscription()
+        public AddDialog()
         {
             InitializeComponent();
             Loaded += new RoutedEventHandler(OnLoaded);

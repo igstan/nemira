@@ -7,9 +7,9 @@ using GoogleReader.API;
 
 namespace Nemira
 {
-    public partial class RenameSubscription : Window
+    public partial class RenameDialog : Window
     {
-        public RenameSubscription(Subscription subscription)
+        public RenameDialog(Subscription subscription)
         {
             InitializeComponent();
 
