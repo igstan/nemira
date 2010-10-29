@@ -14,6 +14,7 @@
 
     <Window.CommandBindings>
         <CommandBinding Command="New" Executed="AddSubscription"/>
+        <CommandBinding Command="Delete" Executed="RemoveSubscription" CanExecute="CanRemoveSubscription"/>
     </Window.CommandBindings>
 
     <Window.Resources>
@@ -77,6 +78,13 @@
                             <ToolTip>Subscribe to a new feed</ToolTip>
                         </MenuItem.ToolTip>
                     </MenuItem>
+                    <MenuItem InputGestureText="Del"
+                              Header="Remove Subscription"
+                              Command="Delete">
+                        <MenuItem.ToolTip>
+                            <ToolTip>Remove selected feed subscription</ToolTip>
+                        </MenuItem.ToolTip>
+                    </MenuItem>
                 </MenuItem>
                 <MenuItem Header="_Edit"/>
                 <MenuItem Header="_View"/>
@@ -112,7 +120,7 @@
                                     Padding="5,5,5,5"
                                     Name="deleteSubscription"
                                     ToolTip="Delete Subscription"
-                                    Click="OnDeleteSubscription"
+                                    Command="Delete"
                                     Style="{DynamicResource DeleteSubscriptionButton}"/>
                         </ToolBar>
                     </ToolBarTray>

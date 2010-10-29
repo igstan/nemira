@@ -135,7 +135,7 @@ namespace Nemira
             }
         }
 
-        private void OnDeleteSubscription(object sender, RoutedEventArgs e)
+        private void RemoveSubscription(object sender, ExecutedRoutedEventArgs e)
         {
             var subscription = subscriptions.SelectedItem as Subscription;
             var message = String.Format("Unsubscribe from {0}?", subscription.Title);
@@ -147,6 +147,12 @@ namespace Nemira
                 readerAccount.RemoveSubscription(subscription);
                 LoadSubscriptions();
             }
+        }
+
+        private void CanRemoveSubscription(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = subscriptions != null
+                        && subscriptions.SelectedItem is Subscription;
         }
 
         private void OnRenameSubscription(object sender, RoutedEventArgs e)
