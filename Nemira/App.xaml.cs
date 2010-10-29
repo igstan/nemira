@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Windows;
+using GoogleReader.API;
 
 namespace Nemira
 {
@@ -21,10 +22,12 @@ namespace Nemira
 
         private void StartupMainWindow(object sender, EventArgs e)
         {
-            var main = new MainWindow();
+            var account = new ReaderAccount(login.Email, login.Password);
+            var main = new MainWindow(account);
 
             Application.Current.MainWindow = main;
-            main.OpenAccount(login.Email, login.Password);
+
+            main.OpenAccount();
         }
     }
 }

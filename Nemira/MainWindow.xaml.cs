@@ -16,15 +16,15 @@ namespace Nemira
     {
         private ReaderAccount readerAccount;
 
-        public MainWindow()
+        public MainWindow(ReaderAccount readerAccount)
         {
+            this.readerAccount = readerAccount;
+
             InitializeComponent();
         }
 
-        public void OpenAccount(string email, string pass)
+        public void OpenAccount()
         {
-            this.readerAccount = new ReaderAccount(email, pass);
-
             LoadSubscriptions();
             Show();
         }
