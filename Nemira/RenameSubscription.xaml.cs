@@ -14,6 +14,10 @@ namespace Nemira
             InitializeComponent();
 
             SubscriptionName = subscription.Title;
+
+            Loaded += new RoutedEventHandler((s, e) => {
+                name.SelectAll();
+            });
         }
 
         private void OnSubmit(object sender, RoutedEventArgs e)
