@@ -171,7 +171,7 @@ namespace Nemira
 
         private void LoadSubscriptions()
         {
-            subscriptions.ItemsSource = new SubscriptionCollection(readerAccount);
+            subscriptions.ItemsSource = new ObservableCollection<Subscription>(readerAccount.Subscriptions);
         }
     }
 }
