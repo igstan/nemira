@@ -20,6 +20,14 @@ namespace Nemira
             InitializeComponent();
         }
 
+        public void OpenAccount(string email, string pass)
+        {
+            this.readerAccount = new ReaderAccount(email, pass);
+
+            LoadSubscriptions();
+            Show();
+        }
+
         private void PopulateContentPane(string content)
         {
             var html = @"<!DOCTYPE html>
@@ -42,14 +50,6 @@ namespace Nemira
             <body>" + content + "</body></html>";
 
             contentArea.NavigateToString(html);
-        }
-
-        public void OpenAccount(string email, string pass)
-        {
-            this.readerAccount = new ReaderAccount(email, pass);
-
-            LoadSubscriptions();
-            Show();
         }
 
         private void OnSelectedFeed(object sender, RoutedEventArgs e)
