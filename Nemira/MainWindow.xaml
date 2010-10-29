@@ -12,6 +12,10 @@
         FocusManager.FocusedElement="{Binding ElementName=subscriptions}"
         Background="{DynamicResource {x:Static SystemColors.ControlBrushKey}}">
 
+    <Window.CommandBindings>
+        <CommandBinding Command="New" Executed="AddSubscription"/>
+    </Window.CommandBindings>
+
     <Window.Resources>
         <Style TargetType="{x:Type Button}" x:Key="DeleteSubscriptionButton">
             <Setter Property="Content">
@@ -66,7 +70,9 @@
 
             <Menu Width="Auto" Padding="0,0,0,1" DockPanel.Dock="Top">
                 <MenuItem Header="_File">
-                    <MenuItem InputGestureText="Ctrl+N" Header="New Feed">
+                    <MenuItem InputGestureText="Ctrl+N"
+                              Header="New Subscription"
+                              Command="New">
                         <MenuItem.ToolTip>
                             <ToolTip>Subscribe to a new feed</ToolTip>
                         </MenuItem.ToolTip>
@@ -90,7 +96,7 @@
                                  Background="Transparent">
                         <ToolBar Margin="0,2,0,2">
                             <Button Padding="5,5,5,5"
-                                    Click="OnAddSubscription"
+                                    Command="New"
                                     ToolTip="Add Subscription">
                                 <Image Source="Images/feed_add.png"/>
                             </Button>

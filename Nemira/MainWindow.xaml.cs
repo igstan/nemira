@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Documents;
+using System.Windows.Input;
 using System.Windows.Navigation;
 using GoogleReader.API;
 
@@ -122,7 +123,7 @@ namespace Nemira
             status.Text = "Done";
         }
 
-        private void OnAddSubscription(object sender, RoutedEventArgs e)
+        private void AddSubscription(object sender, ExecutedRoutedEventArgs e)
         {
             var addSubscriptionDialog = new AddSubscription();
             addSubscriptionDialog.Owner = this;
